@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Riveroak Tree Mark Preview</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/Favicons/Tree-Logo-Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/Favicons/Tree-Logo-Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/Favicons/Tree-Logo-Favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="../images/Favicons/Tree-Logo-Favicon/favicon.ico">
+    <link rel="manifest" href="../images/Favicons/Tree-Logo-Favicon/site.webmanifest">
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background: #f4f4f1;
+        color: #1f2a24;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem clamp(1.5rem, 5vw, 3.5rem) 3rem;
+        display: grid;
+        gap: 2.5rem;
+        justify-items: center;
+      }
+
+      header {
+        text-align: center;
+        max-width: 40rem;
+      }
+
+      header p {
+        margin: 0.75rem 0 0;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(70rem, 100%);
+        display: grid;
+        gap: 2rem;
+      }
+
+      .swatch-grid {
+        display: grid;
+        gap: 1.5rem;
+      }
+
+      .swatch {
+        border-radius: 1.25rem;
+        padding: 2rem;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 12px 35px rgba(31, 42, 36, 0.12);
+        background: var(--swatch-bg);
+      }
+
+      .swatch img {
+        width: var(--icon-size, 7rem);
+        height: auto;
+        display: block;
+      }
+
+      .swatch figcaption {
+        margin-top: 1rem;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: rgba(31, 42, 36, 0.7);
+      }
+
+      .checkerboard {
+        --size: 28px;
+        --color-a: #fefefe;
+        --color-b: #d9d9d9;
+        background-image: linear-gradient(45deg, var(--color-a) 25%, transparent 25%),
+          linear-gradient(-45deg, var(--color-a) 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, var(--color-a) 75%),
+          linear-gradient(-45deg, transparent 75%, var(--color-a) 75%);
+        background-size: var(--size) var(--size);
+        background-position: 0 0, 0 calc(var(--size) / 2), calc(var(--size) / 2) calc(var(--size) / 2), calc(var(--size) / 2) 0;
+      }
+
+      .swatch--dark {
+        --swatch-bg: #1f2a24;
+      }
+
+      .swatch--light {
+        --swatch-bg: #ffffff;
+      }
+
+      .swatch--checker {
+        --swatch-bg: transparent;
+        background-color: #bfc5bf;
+      }
+
+      footer {
+        font-size: 0.9rem;
+        color: rgba(31, 42, 36, 0.65);
+        text-align: center;
+      }
+
+      footer code {
+        padding: 0.15rem 0.4rem;
+        border-radius: 0.4rem;
+        background: rgba(31, 42, 36, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Riveroak Tree Mark Preview</h1>
+      <p>
+        A few sample placements to help visualise the standalone tree mark asset
+        (<code>images/riveroak-tree-mark.svg</code>) at different scales and on a
+        variety of backgrounds.
+      </p>
+    </header>
+    <main>
+      <section class="swatch-grid" aria-label="Icon sizes on brand backgrounds">
+        <figure class="swatch swatch--light" style="--icon-size: 6rem; --swatch-bg: #f4f4f1;">
+          <img src="riveroak-tree-mark.svg" alt="Riveroak tree mark icon" width="96" height="72" />
+          <figcaption>Default brand tint</figcaption>
+        </figure>
+        <figure class="swatch swatch--dark" style="--icon-size: 7rem;">
+          <img src="riveroak-tree-mark.svg" alt="Riveroak tree mark icon" width="112" height="84" />
+          <figcaption>Dark background</figcaption>
+        </figure>
+        <figure class="swatch swatch--checker checkerboard" style="--icon-size: 5rem;">
+          <img src="riveroak-tree-mark.svg" alt="Riveroak tree mark icon" width="80" height="60" />
+          <figcaption>Transparent overlay</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      Download or copy the SVG directly from <code>images/riveroak-tree-mark.svg</code>.
+    </footer>
+  </body>
+</html>

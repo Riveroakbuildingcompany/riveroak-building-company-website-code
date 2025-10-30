@@ -1,0 +1,17 @@
+{
+  "name": "riveroak-building-company-website-code",
+  "version": "1.0.0",
+  "description": "Full website source code for RiverOak Building Company — marketing and portfolio site.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:portfolio": "node scripts/build-portfolio-page.js",
+    "sync:portfolio": "node scripts/sync-portfolio-from-live.js",
+    "test:cms-config": "node scripts/validate-cms-config.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^7.0.10"
+  }
+}

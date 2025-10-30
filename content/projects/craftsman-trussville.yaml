@@ -1,0 +1,230 @@
+title: Craftsman – Trussville
+slug: craftsman-trussville
+output_filename: portfolio-craftsman-trussville.html
+body_class: craftsman-page
+seo:
+  title: Craftsman Home Builder in Trussville, AL | Riveroak Building Company Portfolio
+  description: >-
+    Explore Riveroak Building Company's custom Craftsman home in Trussville, Alabama
+    featuring warm millwork, engineered framing, and energy-efficient comfort for modern
+    family life.
+  og_title: Craftsman Home Builder in Trussville, AL | Riveroak Building Company Portfolio
+  og_description: >-
+    Warm textures, exposed beams, and timeless detailing rooted in traditional design.
+    Trussville, Alabama · Completed 2022 · 3,600 sq ft.
+  twitter_title: Craftsman Home Builder in Trussville, AL | Riveroak Building Company Portfolio
+  twitter_description: >-
+    Warm textures, exposed beams, and timeless detailing rooted in traditional design.
+    Trussville, Alabama · Completed 2022 · 3,600 sq ft.
+  keywords:
+    - Craftsman home Trussville
+    - custom home builder Trussville AL
+    - Riveroak Building Company portfolio
+    - Birmingham luxury home builder
+  canonical: https://www.riveroakbuilding.com/portfolio/portfolio-craftsman-trussville.html
+  og_url: https://www.riveroakbuilding.com/portfolio/portfolio-craftsman-trussville.html
+  og_locale: en_US
+  og_image: https://www.riveroakbuilding.com/images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+  og_image_alt: Riveroak Building Company Craftsman-style home under construction in Trussville, Alabama
+  twitter_image: https://www.riveroakbuilding.com/images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+head_json_ld:
+  - "@context": https://schema.org
+    "@type": ResidentialConstructionProject
+    name: Craftsman – Trussville
+    description: >-
+      Custom Craftsman home by Riveroak Building Company in Trussville, Alabama showcasing engineered
+      framing, Craftsman trimwork, and energy-efficient comfort.
+    image: https://www.riveroakbuilding.com/images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+    url: https://www.riveroakbuilding.com/portfolio/portfolio-craftsman-trussville.html
+    keywords:
+      - custom home builder Trussville
+      - Craftsman home Alabama
+      - Riveroak Building Company
+      - Birmingham luxury home builder
+    location:
+      "@type": Place
+      name: Trussville, Alabama
+      address:
+        "@type": PostalAddress
+        addressLocality: Trussville
+        addressRegion: AL
+        addressCountry: US
+    creator:
+      "@type": Organization
+      name: Riveroak Building Company
+      url: https://www.riveroakbuilding.com
+    projectStatus: https://schema.org/ActiveActionStatus
+hero:
+  eyebrow: Riveroak Portfolio
+  heading: Craftsman – Trussville
+  lede: >-
+    A modern interpretation of Southern craftsmanship, blending timeless detailing, warm materials,
+    and spaces designed for family life.
+  image: /images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+  alt: Craftsman-style home under construction in Trussville, Alabama
+  stats:
+    - label: Location
+      value: Trussville, Alabama
+  tags:
+    - tag: Craftsman Architecture
+    - tag: Warm Millwork
+    - tag: Indoor–Outdoor Living
+overview:
+  eyebrow: Project Overview
+  heading: Craftsman character, built for lasting family roots.
+  paragraphs:
+    - text: >-
+        This <strong>custom Craftsman home in Trussville, Alabama</strong> is taking shape on a wooded lot
+        surrounded by tall pines — a peaceful setting that inspired its design. Built by Riveroak Building
+        Company, the home blends traditional proportions with modern construction methods, using a strong
+        wood frame, dimensional roofing, and a weather-protected envelope to ensure decades of durability.
+    - text: >-
+        Once complete, the residence will feature warm exterior materials, detailed trimwork, and a layout
+        tailored to everyday family life — open gathering spaces, quiet bedrooms, and light-filled transitions
+        that bring the outdoors in. Every board, beam, and finish reflects our commitment to building homes
+        with soul and staying power.
+  details:
+    - title: Home Highlights
+      items:
+        - text: Set on a wooded homesite in Trussville, Alabama
+        - text: Architectural rooflines and classic Craftsman gables
+        - text: Open-concept kitchen and living area designed for gathering
+        - text: Owner’s suite positioned for privacy and wooded views
+        - text: Covered outdoor living spaces extending from the main level
+    - title: Signature Details
+      items:
+        - text: Engineered wood framing and HomeGuard weather barrier
+        - text: Wide eaves, layered trim, and exposed rafter detailing
+        - text: Brick foundation accents and durable exterior siding
+        - text: Natural finishes and handcrafted millwork inside
+        - text: Energy-efficient systems built for long-term comfort
+gallery:
+  eyebrow: Project Photos
+  heading: Scenes from the Craftsman – Trussville
+  items:
+    - image: /images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+      alt: Craftsman-style home wrapped and roofed during construction in Trussville, Alabama
+      aria_label: View larger Craftsman-style home wrapped and roofed during construction in Trussville, Alabama
+      caption: >-
+        The roof is on, the wrap is complete, and the home’s Craftsman form is beginning
+        to show — simple, balanced, and built to last.
+      caption_hidden: true
+materials:
+  eyebrow: Material Story
+  heading: Materials chosen for strength, warmth, and timeless appeal.
+  body: Every element—from the framing to the finish—was selected to ensure lasting beauty, durability, and Craftsman character.
+  cards:
+    - title: Architectural shingles
+      description: Dimensional roofing adds texture and depth while providing long-term protection from the elements.
+    - title: Engineered wood framing
+      description: Strong, efficient, and precisely built to support the home’s form and future finishes.
+    - title: HomeGuard weather barrier
+      description: High-performance wrap protects the structure from moisture while allowing it to breathe naturally.
+    - title: Craftsman trimwork
+      description: Classic fascia lines, rafter tails, and layered gables give the exterior its handcrafted identity.
+seo_overview:
+  eyebrow: Custom home builders in Trussville, AL
+  heading: Luxury Craftsman home builder serving Birmingham’s northeast communities
+  paragraphs:
+    - text: >-
+        Riveroak Building Company designs and builds <strong>custom Craftsman homes in Trussville,
+        Alabama</strong>, pairing architectural authenticity with modern construction science. From site
+        evaluation and permitting to interior finishes, our team guides homeowners through every stage of
+        the process so the result feels both timeless and personal.
+    - text: >-
+        We’re headquartered in Birmingham and regularly collaborate with families throughout Jefferson and
+        St. Clair counties—including Trussville, Leeds, Mountain Brook, Hoover, and surrounding
+        neighborhoods. Our craftsmen emphasize energy efficiency, indoor air quality, and seamless
+        indoor–outdoor living so your home performs as beautifully as it looks.
+  links_heading: Plan your Trussville home project
+  links:
+    - label: See how our custom build process works step-by-step
+      url: /riveroak-building-company-process.html
+    - label: Explore Riveroak Building Company service areas across Greater Birmingham
+      url: /service-areas.html
+    - label: Schedule a consultation with our Trussville home builder team
+      url: /contact.html
+related:
+  eyebrow: More Riveroak projects
+  heading: Explore related residences
+  projects:
+    - title: Craftsman – Hoover
+      summary: A balance of form and function with classic Birmingham style.
+      url: portfolio-craftsman-hoover.html
+      image: /images/Coming-Soon/RB-Logo-coming-soon-yellow-background-black-font.png
+      tag: Craftsman
+      meta:
+        - item: Hoover, Alabama
+        - item: Custom Home
+    - title: Modern Farmhouse – Trussville
+      summary: Southern charm refreshed with modern finishes.
+      url: portfolio-modern-farmhouse-trussville.html
+      image: /images/Portfolio/Modern-Farmhouse-Trussville-Alabama/Farmhouse-Trussville-Alabama-Finished-Project-Image-1.jpeg
+      tag: Farmhouse
+      meta:
+        - item: Trussville, Alabama
+        - item: Custom Residence
+    - title: Ridgeview Residence – Trussville
+      summary: Elevated architecture overlooking the valley.
+      url: portfolio-ridgeview-residence-trussville.html
+      image: /images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Finished-Home-Building-Project-Image-1.JPG
+      tag: Hillside
+      meta:
+        - item: Trussville, Alabama
+        - item: Custom Residence
+cta:
+  eyebrow: Plan your project
+  heading: Bring your site or floor plan—we’ll bring the expertise.
+  lede: >-
+    From the first conversation to the finishing touches, Riveroak Building Co. helps
+    you plan with confidence and build with enduring craftsmanship.
+  links:
+    - label: Our build process
+      url: /riveroak-building-company-process.html
+      class: text-link
+    - label: Where we work
+      url: /service-areas.html
+      class: text-link
+    - label: Meet Riveroak
+      url: /about.html
+      class: text-link
+  details:
+    - label: Phone
+      items:
+        - label: 205.617.0176
+          url: tel:12056170176
+    - label: Email
+      items:
+        - label: zac@riveroakbuilding.com
+          url: mailto:zac@riveroakbuilding.com
+    - label: Explore next
+      items:
+        - label: Plan a consultation
+          url: /contact.html
+          class: text-link
+        - separator: text
+          separator_text: "&bull;"
+        - label: View recent work
+          url: /portfolio/portfolio.html
+          class: text-link
+faq:
+  eyebrow: Trussville custom home FAQs
+  heading: Frequently asked questions about building a Craftsman home in Trussville
+  items:
+    - question: How long does it take to build a custom Craftsman home in Trussville?
+      answer: >-
+        Most Riveroak Building Company projects progress from design to move-in within 10–14 months. The
+        exact timeline depends on permitting, architectural complexity, and selections, but we provide
+        milestone checklists and weekly updates so you always know what comes next.
+    - question: Can Riveroak help with finding land or evaluating a homesite?
+      answer: >-
+        Yes. Our team regularly partners with local Realtors and landowners to identify the ideal site,
+        review topography, and confirm utility access in Trussville and the surrounding Birmingham metro.
+        We’ll walk the property with you and provide a buildability report before construction begins.
+    - question: What Craftsman design details are popular with Birmingham homeowners?
+      answer: >-
+        Homeowners love the warmth of natural wood beams, tapered columns, and built-in cabinetry paired
+        with modern conveniences like spacious pantries, covered outdoor living, and energy-efficient
+        systems. Our design studio helps you personalize every finish while maintaining Craftsman
+        character.
+

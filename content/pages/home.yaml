@@ -1,0 +1,125 @@
+eyebrow: Custom Homes • Crafted in Birmingham
+heading: Where timeless architecture meets the way you live.
+subtext: At Riveroak Building Company, we create homes that are as enduring as
+  they are effortless— designed around your familys rhythm, your landscape, and
+  your vision for what home should feel like.
+hero_image: /images/RB-Photos/yellow-wood-and-brick-house-finished-project-photo-Riveroak-building-company.png
+hero_image_2: /images/sign-outside-home.jpeg
+hero_image_3: /images/RB-Photos/d.png
+hero_image_4: /images/RB-Photos/bathroom-edit.png
+signature:
+  eyebrow: Riveroak at a Glance
+  heading: Where craftsmanship meets calm, and every detail feels considered.
+  body: >
+    At <strong>Riveroak Building Company</strong>, every home is a reflection of
+    the family within it — designed with intention, built with care, and
+    finished with the kind of detail that feels effortless. Our process is
+    grounded in connection, craftsmanship, and a genuine respect for how you
+    want to live. From the first idea to the final furnishing, we guide you
+    through every decision with clarity and calm. The result is a home that
+    feels timeless, personal, and unmistakably yours — set among Birmingham’s
+    most beautiful neighborhoods, from Vestavia Hills and Hoover to Mountain
+    Brook and beyond.
+  links:
+    - label: Meet Riveroak
+      url: /about.html
+    - label: Our Process
+      url: /riveroak-building-company-process.html
+    - label: View Our Work
+      url: /portfolio/portfolio.html
+    - label: Schedule a Consultation
+      url: /contact.html
+  highlight_title: Rooted in craftsmanship. Inspired by life.
+  highlight_body: >
+    Riveroak homes blend architectural integrity with an ease of living — spaces
+    that feel graceful, grounded, and built to be lived in beautifully.
+  highlight_cards:
+    - title: Years of experience
+      description: Crafting homes across Greater Birmingham that honor both tradition
+        and individuality.
+    - title: Design + Build
+      description: Architects, builders, and artisans collaborating seamlessly from
+        vision to finish.
+    - title: Personalized Experience
+      description: A guided, transparent process designed to feel as calm and
+        rewarding as the home you’re building.
+  highlight_cta:
+    label: Discover where we build →
+    url: /service-areas.html
+featured:
+  eyebrow: Featured Work
+  heading: Designed for connection, built for everyday living.
+  intro: >
+    Each Riveroak home is a study in refined design — crafted with intention,
+    layered with character, and built to elevate the way families live.
+  cta_text: Explore the full portfolio
+  cta_url: /portfolio/portfolio.html
+  projects:
+    - title: English Cottage
+      summary: Tailored millwork, intimate gathering spaces, and cottage charm come
+        together in this custom home crafted for everyday warmth.
+      image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-9.JPG
+      url: /portfolio/portfolio-trussville-cottage.html
+    - title: Lakefront Home
+      summary: Expansive waterfront living with open interiors and panoramic views
+        over the water.
+      image: /images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-Building-Home-Under-Construction.JPG
+      url: /portfolio/portfolio-lakefront-home-trussville.html
+    - title: Ridgeview Residence
+      summary: Elevated architecture overlooking the valley, finished with refined,
+        timeless materials.
+      image: /images/RB-Photos/home-with-mailbox-out-front.JPG
+      url: /portfolio/portfolio-ridgeview-residence-trussville.html
+process_preview:
+  eyebrow: Process
+  heading: Crafting homes as distinctive as the families who build them.
+  intro: >
+    Building a home is both an art and a collaboration. Riveroak’s process was
+    designed to make it seamless — uniting design, construction, and
+    communication into one refined, transparent journey. Every phase is handled
+    with care so you can focus on the excitement of creating your home, not the
+    stress behind it.
+  cta_text: Explore the full process →
+  cta_url: /riveroak-building-company-process.html
+  steps:
+    - title: Discover
+      description: We begin with conversation — listening closely to your vision,
+        site, and lifestyle.
+    - title: Design
+      description: Architects and designers shape each detail to reflect your taste
+        and daily rhythm.
+    - title: Build
+      description: Our craftsmen bring the design to life with precision,
+        transparency, and care.
+    - title: Care
+      description: After completion, we remain committed — ensuring your home endures
+        beautifully.
+testimonial:
+  quote: >
+    “Riveroak took everything we imagined and made it even better. Our home
+    feels like a private resort, yet every detail still feels personal and
+    meaningful to us. The whole experience was stress-free and truly enjoyable.”
+  byline: — Riveroak Homeowner, Mountain Brook
+cta:
+  body: >
+    Share your vision, homesite, and timeline—we’ll craft a personalized roadmap
+    and assemble the Riveroak team to bring your dream home to life with
+    artistry, precision, and care.
+  heading: Let’s build the home that feels entirely yours.
+  button_url: /contact.html
+  eyebrow: Ready to Begin?
+  connect:
+    - label: Instagram
+      url: https://www.instagram.com/riveroak_building_co/
+    - label: Facebook
+      url: https://facebook.com/Riveroak-Building-Company
+  phone: 205.617.0176
+  email_href: mailto:zac@riveroakbuilding.com
+  links:
+    - label: Learn about our philosophy →
+      url: /about.html
+    - label: Explore where we build →
+      url: /service-areas.html
+  button_text: Schedule a Private Consultation
+  phone_href: tel:12056170176
+  email: zac@riveroakbuilding.com

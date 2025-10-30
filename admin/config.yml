@@ -1,0 +1,848 @@
+# === Authentication & Backend ===
+# Use DecapBridge classic auth
+backend:
+  name: git-gateway
+  branch: main
+  identity_url: https://auth.decapbridge.com/sites/4717d090-6938-4415-a03d-26a0c4be74ca
+  gateway_url: https://gateway.decapbridge.com
+
+# === Editorial workflow ===
+publish_mode: editorial_workflow
+
+# === Media storage ===
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# === Media library ===
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
+
+# === Optional niceties ===
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+site_url: https://www.riveroakbuilding.com
+
+# === Commit messages ===
+commit_messages:
+  create: "Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge"
+  update: "Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge"
+  delete: "Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge"
+  uploadMedia: "Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge"
+  deleteMedia: "Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge"
+  openAuthoring: "Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge"
+
+# === Collections ===
+collections:
+  # --- Pages (file-based) ---
+  - name: "pages"
+    label: "Pages"
+    files:
+      # Home
+      - label: "Home (index)"
+        name: "home"
+        file: "content/pages/home.yaml"
+        fields:
+          - { label: "Hero Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Hero Heading", name: "heading", widget: "string" }
+          - { label: "Hero Subtext", name: "subtext", widget: "text", required: false }
+          - { label: "Hero Image 1", name: "hero_image", widget: "image", required: false, choose_url: true }
+          - { label: "Hero Image 2", name: "hero_image_2", widget: "image", required: false, choose_url: true }
+          - { label: "Hero Image 3", name: "hero_image_3", widget: "image", required: false, choose_url: true }
+          - { label: "Hero Image 4", name: "hero_image_4", widget: "image", required: false, choose_url: true }
+          - label: "Signature Section"
+            name: "signature"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - { label: "Highlight Title", name: "highlight_title", widget: "string", required: false }
+              - { label: "Highlight Body", name: "highlight_body", widget: "markdown", required: false }
+              - label: "Highlight Cards"
+                name: "highlight_cards"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+              - label: "Highlight CTA"
+                name: "highlight_cta"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - label: "Featured Projects"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Section Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "markdown", required: false }
+              - { label: "CTA Text", name: "cta_text", widget: "string", required: false }
+              - { label: "CTA URL", name: "cta_url", widget: "string", required: false }
+              - label: "Projects"
+                name: "projects"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Summary", name: "summary", widget: "text", required: false }
+                  - { label: "Image", name: "image", widget: "image", required: false, choose_url: true }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+          - label: "Process Preview"
+            name: "process_preview"
+            widget: "object"
+            fields:
+              - { label: "Section Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "markdown", required: false }
+              - { label: "CTA Text", name: "cta_text", widget: "string", required: false }
+              - { label: "CTA URL", name: "cta_url", widget: "string", required: false }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+          - label: "Testimonial"
+            name: "testimonial"
+            widget: "object"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Byline", name: "byline", widget: "string", required: false }
+          - label: "CTA Section"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - { label: "Phone Label", name: "phone", widget: "string", required: false }
+              - { label: "Phone Link", name: "phone_href", widget: "string", required: false }
+              - { label: "Email Label", name: "email", widget: "string", required: false }
+              - { label: "Email Link", name: "email_href", widget: "string", required: false }
+              - label: "Connect Links"
+                name: "connect"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - { label: "Button Text", name: "button_text", widget: "string", required: false }
+              - { label: "Button URL", name: "button_url", widget: "string", required: false }
+
+      # About
+      - label: "About"
+        name: "about"
+        file: "content/pages/about.yaml"
+        fields:
+          - label: "Founder Section"
+            name: "founder"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Portrait Image", name: "portrait", widget: "image", required: false, choose_url: true }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                required: false
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+
+      # Portfolio landing
+      - label: "Portfolio"
+        name: "portfolio"
+        file: "content/pages/portfolio.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead", name: "lead", widget: "text", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
+          - label: "Projects"
+            name: "projects"
+            widget: "object"
+            fields:
+              - label: "Highlight Project"
+                name: "highlight"
+                widget: "object"
+                fields:
+                  - { label: "Tag", name: "tag", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+                  - { label: "Location", name: "location", widget: "string", required: false }
+                  - { label: "Image", name: "image", widget: "image", required: false, choose_url: true }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+              - label: "Project List"
+                name: "items"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Tag", name: "tag", widget: "string", required: false }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+                  - { label: "Location", name: "location", widget: "string", required: false }
+                  - { label: "Image", name: "image", widget: "image", required: false, choose_url: true }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+
+      # Process
+      - label: "Process"
+        name: "process"
+        file: "content/pages/process.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Badge", name: "badge", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Lead", name: "lead", widget: "markdown", required: false }
+              - label: "Primary CTA"
+                name: "primary_cta"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+              - label: "Secondary CTA"
+                name: "secondary_cta"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+              - label: "Detail Highlights"
+                name: "details"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text", required: false }
+          - { label: "Intro Body", name: "body", widget: "markdown", required: false }
+          - label: "Journey Overview"
+            name: "overview"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+                  - { label: "Step Number", name: "number", widget: "string", required: false }
+          - label: "Download Section"
+            name: "download"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+              - label: "Media Link"
+                name: "media"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+                  - { label: "Aria Label", name: "aria_label", widget: "string", required: false }
+              - label: "Image"
+                name: "image"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Image", name: "src", widget: "image", required: false, choose_url: true }
+                  - { label: "Alt Text", name: "alt", widget: "string", required: false }
+          - label: "Support Call-to-Action"
+            name: "support"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - label: "Primary CTA"
+                name: "primary_cta"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+              - label: "Secondary CTA"
+                name: "secondary_cta"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Download file", name: "download", widget: "boolean", required: false }
+
+      # Service Areas landing
+      - label: "Service Areas (overview)"
+        name: "service_areas"
+        file: "content/pages/service-areas.yaml"
+        fields:
+          - { label: "Title", name: "title", widget: "string", default: "Where We Build" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - label: "Featured Areas"
+            name: "featured_areas"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Teaser", name: "teaser", widget: "text" }
+              - { label: "Hero Image", name: "image", widget: "image", required: false, choose_url: true }
+
+      # Contact
+      - label: "Contact"
+        name: "contact"
+        file: "content/pages/contact.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subtext", name: "subtext", widget: "text", required: false }
+              - { label: "Body", name: "body", widget: "markdown", required: false }
+              - { label: "Hero Note", name: "note", widget: "markdown", required: false }
+              - label: "Actions"
+                name: "actions"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - label: "Button Style"
+                    name: "variant"
+                    widget: "select"
+                    required: false
+                    options:
+                      - { label: "Primary", value: "primary" }
+                      - { label: "Outline", value: "outline" }
+                      - { label: "Ghost", value: "ghost" }
+                  - { label: "CSS Class", name: "class", widget: "string", required: false }
+                  - { label: "Target", name: "target", widget: "string", required: false }
+                  - { label: "Rel", name: "rel", widget: "string", required: false }
+                  - { label: "Download", name: "download", widget: "string", required: false }
+          - label: "Details Panel"
+            name: "details"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Intro", name: "intro", widget: "markdown", required: false }
+              - label: "Essentials"
+                name: "essentials"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "markdown", required: false }
+              - { label: "Appointment Note", name: "appointment_note", widget: "markdown", required: false }
+              - label: "Footer Essentials"
+                name: "footer_essentials"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+
+      # Thank You
+      - label: "Thank You"
+        name: "thank_you"
+        file: "content/pages/thank-you.yaml"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            collapsed: true
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Meta Description", name: "description", widget: "text", required: false }
+              - { label: "Canonical URL", name: "canonical", widget: "string", required: false }
+              - { label: "OG Title", name: "og_title", widget: "string", required: false }
+              - { label: "OG Description", name: "og_description", widget: "text", required: false }
+              - { label: "OG Image", name: "og_image", widget: "image", required: false, choose_url: true }
+              - { label: "Twitter Title", name: "twitter_title", widget: "string", required: false }
+              - { label: "Twitter Description", name: "twitter_description", widget: "text", required: false }
+              - { label: "Twitter Image", name: "twitter_image", widget: "image", required: false, choose_url: true }
+              - label: "Structured Data (JSON-LD)"
+                name: "jsonld"
+                widget: "object"
+                required: false
+                collapsed: true
+                fields:
+                  - { label: "@context", name: "@context", widget: "string", required: false }
+                  - { label: "@type", name: "@type", widget: "string", required: false }
+                  - { label: "Name", name: "name", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "Description", name: "description", widget: "text", required: false }
+                  - label: "Publisher"
+                    name: "publisher"
+                    widget: "object"
+                    required: false
+                    fields:
+                      - { label: "@type", name: "@type", widget: "string", required: false }
+                      - { label: "Name", name: "name", widget: "string", required: false }
+                      - { label: "URL", name: "url", widget: "string", required: false }
+                      - label: "Logo"
+                        name: "logo"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "@type", name: "@type", widget: "string", required: false }
+                          - { label: "URL", name: "url", widget: "string", required: false }
+                      - label: "Contact Point"
+                        name: "contactPoint"
+                        widget: "object"
+                        required: false
+                        fields:
+                          - { label: "@type", name: "@type", widget: "string", required: false }
+                          - { label: "Contact Type", name: "contactType", widget: "string", required: false }
+                          - { label: "Telephone", name: "telephone", widget: "string", required: false }
+                          - { label: "Email", name: "email", widget: "string", required: false }
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Message", name: "message", widget: "markdown" }
+              - { label: "Support Message", name: "support_message", widget: "markdown", required: false }
+              - label: "Actions"
+                name: "actions"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - label: "Button Style"
+                    name: "style"
+                    widget: "select"
+                    required: false
+                    options:
+                      - { label: "Primary", value: "primary" }
+                      - { label: "Outline", value: "outline" }
+
+      # 404
+      - label: "404 Page"
+        name: "not_found"
+        file: "content/pages/404.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Monogram", name: "monogram", widget: "string", required: false }
+              - { label: "Status", name: "status", widget: "string", required: false }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Lead", name: "lead", widget: "text", required: false }
+              - { label: "Code", name: "code", widget: "string", required: false }
+              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+              - { label: "Background Image", name: "background_image", widget: "image", required: false, choose_url: true }
+              - { label: "Background Alt Text", name: "background_alt", widget: "string", required: false }
+              - label: "Actions"
+                name: "actions"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - label: "Button Style"
+                    name: "style"
+                    widget: "select"
+                    required: false
+                    options:
+                      - { label: "Primary", value: "primary" }
+                      - { label: "Outline", value: "outline" }
+                      - { label: "Ghost", value: "ghost" }
+
+      # Privacy
+      - label: "Privacy Policy"
+        name: "privacy"
+        file: "content/pages/privacy.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "markdown", required: false }
+              - label: "Intro Paragraphs"
+                name: "intro"
+                widget: "list"
+                required: false
+                field: { label: "Paragraph", name: "paragraph", widget: "markdown" }
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
+
+      # Terms
+      - label: "Terms & Conditions"
+        name: "terms"
+        file: "content/pages/terms.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "markdown", required: false }
+          - { label: "Intro", name: "intro", widget: "markdown", required: false }
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
+
+      # Accessibility
+      - label: "Accessibility Statement"
+        name: "accessibility"
+        file: "content/pages/accessibility.yaml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "markdown", required: false }
+              - label: "Intro Paragraphs"
+                name: "intro"
+                widget: "list"
+                required: false
+                field: { label: "Paragraph", name: "paragraph", widget: "markdown" }
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
+
+  # --- Service Areas (folder-based) ---
+  - name: "areas"
+    label: "Service Areas"
+    folder: "content/areas"
+    create: true
+    format: "yaml"
+    extension: "yaml"
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Hero Image", name: "hero_image", widget: "image", required: false, choose_url: true }
+      - label: "ZIP Codes"
+        name: "zip_codes"
+        widget: "list"
+        field: { label: "ZIP", name: "zip", widget: "string" }
+      - label: "Highlights"
+        name: "highlights"
+        widget: "list"
+        field: { label: "Point", name: "point", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+
+
+  # --- Portfolio Projects (folder-based) ---
+  - name: "projects"
+    label: "Portfolio Projects"
+    label_singular: "Portfolio Project"
+    description: "Each entry corresponds to a specific portfolio project."
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    format: "yaml"
+    extension: "yaml"
+    summary: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "Lowercase, hyphenated identifier used for the URL." }
+      - { label: "HTML File Name", name: "output_filename", widget: "string", hint: "e.g. portfolio-craftsman-trussville.html" }
+      - { label: "Body Class", name: "body_class", widget: "string", required: false }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "SEO Title", name: "title", widget: "string", required: false }
+          - { label: "Meta Description", name: "description", widget: "text", required: false }
+          - { label: "Canonical URL", name: "canonical", widget: "string", required: false }
+          - { label: "Open Graph Image", name: "og_image", widget: "image", required: false, choose_url: true }
+          - { label: "Open Graph Image Type", name: "og_image_type", widget: "string", required: false }
+          - { label: "Open Graph Image Width", name: "og_image_width", widget: "string", required: false }
+          - { label: "Open Graph Image Height", name: "og_image_height", widget: "string", required: false }
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Lede", name: "lede", widget: "text", required: false }
+          - { label: "Image", name: "image", widget: "image", choose_url: true }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Value", name: "value", widget: "string" }
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            required: false
+            field: { label: "Tag", name: "tag", widget: "string" }
+      - label: "SEO Intro"
+        name: "seo_intro"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - label: "Paragraphs"
+            name: "paragraphs"
+            widget: "list"
+            required: false
+            field: { label: "Paragraph", name: "text", widget: "text" }
+          - label: "Sidebar"
+            name: "sidebar"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Sidebar Heading", name: "heading", widget: "string", required: false }
+              - { label: "ARIA Label", name: "aria_label", widget: "string", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                required: false
+                field: { label: "Item", name: "text", widget: "string" }
+      - label: "Overview"
+        name: "overview"
+        widget: "object"
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - label: "Paragraphs"
+            name: "paragraphs"
+            widget: "list"
+            required: false
+            field: { label: "Paragraph", name: "text", widget: "text" }
+          - label: "Detail Sections"
+            name: "details"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                field: { label: "Item", name: "text", widget: "string" }
+      - label: "SEO Benefits"
+        name: "seo_benefits"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Columns"
+            name: "columns"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Heading", name: "heading", widget: "string", required: false }
+              - { label: "Body", name: "body", widget: "text", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                required: false
+                field: { label: "Item", name: "text", widget: "string" }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "object"
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - label: "Images"
+            name: "items"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Image", name: "image", widget: "image", choose_url: true }
+              - { label: "Alt Text", name: "alt", widget: "string", required: false }
+              - { label: "ARIA Label", name: "aria_label", widget: "string", required: false }
+              - { label: "Caption", name: "caption", widget: "text", required: false }
+              - { label: "Hide Caption", name: "caption_hidden", widget: "boolean", required: false }
+      - label: "FAQ"
+        name: "faq"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - { label: "Intro", name: "intro", widget: "text", required: false }
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+      - label: "Materials"
+        name: "materials"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "text", required: false }
+          - label: "Material Cards"
+            name: "cards"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+      - label: "Related Projects"
+        name: "related"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text", required: false }
+              - { label: "Link", name: "url", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false, choose_url: true }
+              - { label: "Tag", name: "tag", widget: "string", required: false }
+              - label: "Meta"
+                name: "meta"
+                widget: "list"
+                required: false
+                field: { label: "Item", name: "item", widget: "string" }
+      - label: "CTA"
+        name: "cta"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - { label: "Body", name: "lede", widget: "text", required: false }
+          - label: "Links"
+            name: "links"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "CSS Class", name: "class", widget: "string", required: false }
+          - label: "Detail Items"
+            name: "details"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - label: "Entries"
+                name: "items"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Text", name: "label", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }
+                  - { label: "CSS Class", name: "class", widget: "string", required: false }
+                  - { label: "Separator Type", name: "separator", widget: "select", required: false, options: ["none", "bullet", "text"] }
+                  - { label: "Separator Text", name: "separator_text", widget: "string", required: false }
+      - label: "Structured Data"
+        name: "structured_data"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Project Schema"
+            name: "project"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Type", name: "type", widget: "string", required: false, default: "Project" }
+              - { label: "Name", name: "name", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Image URL", name: "image", widget: "string", required: false }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - label: "Location"
+                name: "location"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Type", name: "type", widget: "string", required: false, default: "Place" }
+                  - { label: "Name", name: "name", widget: "string", required: false }
+                  - label: "Address"
+                    name: "address"
+                    widget: "object"
+                    required: false
+                    fields:
+                      - { label: "Locality", name: "locality", widget: "string", required: false }
+                      - { label: "Region", name: "region", widget: "string", required: false }
+                      - { label: "Country", name: "country", widget: "string", required: false }
+              - label: "Creator"
+                name: "creator"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Type", name: "type", widget: "string", required: false, default: "Organization" }
+                  - { label: "Name", name: "name", widget: "string", required: false }
+                  - { label: "URL", name: "url", widget: "string", required: false }

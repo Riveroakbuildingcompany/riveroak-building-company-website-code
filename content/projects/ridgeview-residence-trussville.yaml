@@ -1,0 +1,201 @@
+title: "Ridgeview Residence – Trussville"
+slug: "ridgeview-residence-trussville"
+body_class: "ridgeview-page"
+
+seo:
+  title: "Ridgeview Residence – Trussville Custom Home | Riveroak Building Company Portfolio"
+  description: >-
+    Tour the Ridgeview Residence in Trussville, AL—a custom hillside home by Riveroak Building Company
+    featuring panoramic views, luxury craftsmanship, and enduring materials.
+  canonical: "https://www.riveroakbuilding.com/portfolio/portfolio-ridgeview-residence-trussville.html"
+  og_image: "https://www.riveroakbuilding.com/images/riveroak-logo.svg"
+  json_ld:
+    - "@context": "https://schema.org"
+      "@type": "Residence"
+      name: "Ridgeview Residence – Trussville"
+      description: >-
+        Custom hillside home in Trussville, Alabama by Riveroak Building Company featuring panoramic views,
+        custom trimwork, and enduring materials.
+      image: "https://www.riveroakbuilding.com/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Finished-Home-Building-Project-Image-1.JPG"
+      url: "https://www.riveroakbuilding.com/portfolio/portfolio-ridgeview-residence-trussville.html"
+      address:
+        "@type": "PostalAddress"
+        addressLocality: "Trussville"
+        addressRegion: "AL"
+        addressCountry: "US"
+      creator:
+        "@type": "Organization"
+        name: "Riveroak Building Company"
+        url: "https://www.riveroakbuilding.com"
+
+hero:
+  eyebrow: "Riveroak Portfolio"
+  heading: "Ridgeview Residence – Trussville"
+  lede: >-
+    A hillside home elevated for sweeping ridge-line perspectives, crafted to celebrate light, landscape,
+    and family life.
+  image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-4.JPG"
+  alt: "Finished Ridgeview Residence overlooking the valley in Trussville, Alabama"
+  stats:
+    - label: "Location"
+      value: "Trussville, Alabama"
+  tags:
+    - tag: "Hillside Construction"
+    - tag: "Panoramic Views"
+    - tag: "Custom Trimwork"
+
+overview:
+  eyebrow: "Project Overview"
+  heading: "A hillside home designed to rise with the land."
+  paragraphs:
+    - text: >-
+        Set high along a wooded ridge in Trussville, this home makes the most of its steep site and open views.
+        Riveroak designed the layout to follow the land’s natural contours, creating a home that feels connected
+        to its setting at every turn.
+    - text: >-
+        Inside, warm materials and classic detailing balance the dramatic elevation. Thoughtful storage,
+        handcrafted finishes, and family-friendly flow bring everyday comfort to a one-of-a-kind hillside home
+        built to last.
+  details:
+    - title: "Home Highlights"
+      items:
+        - text: "Double-height foyer framing views across the valley"
+        - text: "Open kitchen, dining, and living spaces with access to the porch"
+        - text: "Owner’s suite with private terrace and morning nook"
+        - text: "Upper-level loft and study filled with natural light"
+        - text: "Ground-level mudroom and workshop connected to the garage"
+    - title: "Signature Details"
+      items:
+        - text: "Engineered foundation designed to step into the hillside"
+        - text: "Architectural porch truss highlighting the entry"
+        - text: "Brick and lap-siding blend for texture and durability"
+        - text: "Energy-efficient windows capturing morning and evening light"
+        - text: "Custom wood railings and trim crafted for a timeless finish"
+
+seo_copy:
+  heading: "Custom home builders in Trussville delivering ridge-top luxury"
+  paragraphs:
+    - text: >-
+        Riveroak Building Company partners with homeowners who want a refined residence that feels effortless
+        on a challenging homesite. For the Ridgeview Residence, our design-build team optimized the views,
+        engineered every structural detail for the slope, and selected finishes that stand up to Alabama weather
+        while remaining beautiful for decades.
+    - text: >-
+        From the welcoming foyer to the private owner’s terrace, each space was crafted to enhance daily living.
+        Our in-house artisans installed custom millwork, smart storage solutions, and generous windows so that
+        natural light and landscapes remain the star.
+    - text: >-
+        Planning a new construction home in Jefferson County or the greater Birmingham area? Explore our
+        <a href="../service-areas/trussville/service-area-trussville-alabama.html">Trussville custom home building services</a>
+        to learn how Riveroak Building Company can bring your vision to life on any lot.
+
+gallery:
+  eyebrow: "Project Photos"
+  heading: "Building the Ridgeview Residence – Trussville"
+  items:
+    - image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-3.JPG"
+      alt: "Early framing on the Ridgeview Residence hillside home"
+      aria_label: "View larger: Early framing on the Ridgeview Residence hillside home"
+      caption: "Framing begins to reveal the home’s dramatic slope and multi-level form."
+      caption_hidden: true
+    - image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-4.JPG"
+      alt: "Rear elevation of the Ridgeview Residence during framing"
+      aria_label: "View larger: Rear elevation of the Ridgeview Residence during framing"
+      caption: "The rear elevation steps naturally with the terrain, creating walk-out access at each level."
+      caption_hidden: true
+    - image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-5.JPG"
+      alt: "Framed entry porch and exposed roof structure of Ridgeview Residence"
+      aria_label: "View larger: Framed entry porch and exposed roof structure of Ridgeview Residence"
+      caption: "The entry porch takes shape with exposed beams and natural wood framing that set the tone for the finished exterior."
+      caption_hidden: true
+    - image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-1.JPG"
+      alt: "Front elevation of the Ridgeview Residence wrapped and roofed"
+      aria_label: "View larger: Front elevation of the Ridgeview Residence wrapped and roofed"
+      caption: "Once wrapped and roofed, the home’s distinctive gables define its hillside profile."
+      caption_hidden: true
+    - image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Finished-Home-Building-Project-Image-1.JPG"
+      alt: "Completed Ridgeview Residence showing driveway and brick details"
+      aria_label: "View larger: Completed Ridgeview Residence showing driveway and brick details"
+      caption: "The completed home — a warm mix of brick, siding, and natural wood accents — rests gracefully along the ridge."
+      caption_hidden: true
+
+materials:
+  eyebrow: "Material Story"
+  heading: "A blend of strength, warmth, and hillside craftsmanship."
+  body: >-
+    Each element was chosen to meet the challenge of the slope while expressing Riveroak’s signature
+    attention to texture and detail.
+  cards:
+    - title: "Engineered foundation"
+      description: "Stepped concrete footings stabilize the steep site and create a solid base for multi-level living."
+    - title: "Brick lower level"
+      description: "Hand-laid red brick grounds the home to the ridge, adding timeless color and durability at the foundation."
+    - title: "Fiber-cement siding"
+      description: "Classic lap and shingle siding in deep gray tones provide weather resistance with enduring curb appeal."
+    - title: "Natural wood details"
+      description: "Warm wood columns, beams, and railings accent the entry and porches, balancing structure with Southern charm."
+
+related:
+  eyebrow: "More Riveroak projects"
+  heading: "See additional custom homes"
+  projects:
+    - title: "Modern Farmhouse"
+      summary: "Classic Southern charm with a modern palette and custom millwork."
+      url: "portfolio-modern-farmhouse-trussville.html"
+      image: "/images/RB-Photos/Modern-Farmhouse-preview.jpeg"
+      tag: "Farmhouse"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Family Residence"
+    - title: "Craftsman"
+      summary: "Warm textures, exposed beams, and timeless detailing."
+      url: "portfolio-craftsman-trussville.html"
+      image: "/images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg"
+      tag: "Craftsman"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Custom Residence"
+    - title: "Craftsman – Hoover"
+      summary: "A balance of form and function with classic Birmingham style."
+      url: "portfolio-craftsman-hoover.html"
+      image: "/images/Coming-Soon/RB-Logo-coming-soon-yellow-background-black-font.png"
+      tag: "Craftsman"
+      meta:
+        - item: "Hoover, Alabama"
+        - item: "Custom Build"
+
+cta:
+  eyebrow: "Plan your project"
+  heading: "Bring your site or floor plan—we’ll bring the expertise."
+  lede: >-
+    From the first conversation to the finishing touches, Riveroak Building Co. helps you plan with confidence
+    and build with enduring craftsmanship.
+  links:
+    - label: "Our build process"
+      url: "/riveroak-building-company-process.html"
+      class: "text-link"
+    - label: "Where we work"
+      url: "/service-areas.html"
+      class: "text-link"
+    - label: "Meet Riveroak"
+      url: "/about.html"
+      class: "text-link"
+  details:
+    - label: "Phone"
+      items:
+        - label: "205.617.0176"
+          url: "tel:12056170176"
+    - label: "Email"
+      items:
+        - label: "zac@riveroakbuilding.com"
+          url: "mailto:zac@riveroakbuilding.com"
+    - label: "Explore next"
+      items:
+        - label: "Plan a consultation"
+          url: "/contact.html"
+          class: "text-link"
+        - separator: "text"
+          separator_text: "&bull;"
+        - label: "View recent work"
+          url: "/portfolio/portfolio.html"
+          class: "text-link"

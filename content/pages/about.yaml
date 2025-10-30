@@ -1,0 +1,84 @@
+title: About Riveroak
+intro: |
+  We build legacy homes with craftsmanship and care.
+team_photo: ""
+body: ""
+founder:
+  eyebrow: Meet the Founder
+  heading: Where thoughtful design meets hands-on leadership.
+  portrait: /images/about-image-zac-and-family.jpg
+  paragraphs:
+    - Hi, I’m Zac, the owner of Riveroak Building Company. For me, building
+      isn’t just about putting up walls — it’s about helping families create a
+      place they’re proud to call home. Every house should fit the people who
+      live there, reflect their style, and be built to last for years to come.
+    - I started out in real estate and property development back in 2017, but in
+      2022 I decided to focus fully on building. I wanted to be more hands-on,
+      working directly with homeowners and agents to bring ideas to life. My
+      favorite part of this job is sitting down with clients, hearing what
+      matters most to them, and turning that into a space they can’t wait to
+      come home to.
+    - "At Riveroak, you’ll work with me personally from start to finish — no
+      layers of middlemen or corporate distance. I’ll be there to answer
+      questions, help with decisions, and keep the process straightforward and
+      honest. My goal is simple: to build a home you love and make the journey
+      as smooth and enjoyable as possible."
+  highlights:
+    - title: Guided Collaboration
+      description: A single point of contact shepherds every step so ideas move
+        quickly from sketches to site.
+    - title: Crafted Partnerships
+      description: Trusted architects, designers, and artisans work alongside us to
+        deliver enduring detail.
+    - title: Transparent Process
+      description: Open communication keeps decisions clear, budgets balanced, and the
+        build experience calm.
+    - title: Rooted in Birmingham
+      description: Local expertise means homes tailored to the terrain, lifestyle, and
+        neighborhoods you love.
+promise:
+  eyebrow: Our Promise
+  heading: Honest. Fair. Reliable.
+  body: >
+    These aren’t just words — they’re the standards that guide every Riveroak
+    project. We believe trust is built through honesty, earned through fairness,
+    and sustained through reliability. From the first conversation to the final
+    walkthrough, our team is committed to transparent communication, balanced
+    expectations, and craftsmanship you can depend on. The result is more than a
+    home — it’s a partnership grounded in respect, integrity, and enduring
+    quality.
+  links:
+    - label: Our Process
+      url: /riveroak-building-company-process.html
+    - label: View Our Work
+      url: /portfolio/portfolio.html
+    - label: Where We Build
+      url: /service-areas.html
+    - label: Schedule a Consultation
+      url: /contact.html
+  pillars:
+    - label: Honest
+      description: Clear communication and genuine guidance from day one.
+    - label: Fair
+      description: Balanced pricing and a process grounded in respect and integrity.
+    - label: Reliable
+      description: Consistent quality, trusted partners, and lasting accountability.
+cta:
+  body: >
+    Share your vision, homesite, and timeline—we’ll craft a personalized roadmap
+    and assemble the Riveroak team to bring your dream home to life with
+    artistry, precision, and care.
+  heading: Let’s build the home that feels entirely yours.
+  eyebrow: Ready to Begin?
+  connect:
+    - label: Instagram
+      url: https://www.instagram.com/riveroak_building_co/
+    - label: Facebook
+      url: https://facebook.com/Riveroak-Building-Company
+  phone: (205) 617-0176
+  email_href: mailto:zac@riveroakbuilding.com
+  links:
+    - label: Contact →
+      url: /service-areas.html
+  phone_href: tel:12056170176
+  email: zac@riveroakbuilding.com

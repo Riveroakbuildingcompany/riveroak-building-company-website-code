@@ -1,0 +1,49 @@
+seo:
+  title: Thank You | Riveroak Building Company
+  description: >-
+    Thank you for contacting Riveroak Building Company. Our Birmingham custom home builders will connect with you soon to discuss your project.
+  canonical: https://www.riveroakbuilding.com/thank-you.html
+  og_title: Thank You | Riveroak Building Company
+  og_description: >-
+    Thank you for reaching out to Riveroak Building Company. Our Birmingham luxury home experts will respond to your inquiry promptly.
+  og_image: https://www.riveroakbuilding.com/images/riveroak-logo.svg
+  twitter_title: Thank You | Riveroak Building Company
+  twitter_description: >-
+    Thank you for contacting Riveroak Building Company. Our Birmingham custom home builders will follow up shortly.
+  twitter_image: https://www.riveroakbuilding.com/images/riveroak-logo.svg
+  jsonld:
+    @context: https://schema.org
+    @type: ContactPage
+    name: Thank You | Riveroak Building Company
+    url: https://www.riveroakbuilding.com/thank-you.html
+    description: >-
+      Thank you for contacting Riveroak Building Company. Our Birmingham, Alabama custom home builders will follow up on your request.
+    publisher:
+      @type: Organization
+      name: Riveroak Building Company
+      url: https://www.riveroakbuilding.com/
+      logo:
+        @type: ImageObject
+        url: https://www.riveroakbuilding.com/images/riveroak-logo.svg
+      contactPoint:
+        @type: ContactPoint
+        contactType: Customer Service
+        telephone: +1-205-617-0176
+        email: zac@riveroakbuilding.com
+hero:
+  eyebrow: Thank You
+  heading: Your message has been successfully received.
+  message: |-
+    Thank you for contacting **Riveroak Building Company**, Birmingham’s trusted partner for luxury custom homes and transformative remodels. Our team has received your inquiry and will review the details promptly before reaching out to discuss your project goals and next steps.
+  support_message: |-
+    For immediate assistance, please call [205-617-0176](tel:12056170176) or email [zac@riveroakbuilding.com](mailto:zac@riveroakbuilding.com).
+  actions:
+    - label: Explore Our Home Building Services
+      url: /index.html
+      style: primary
+    - label: View Recent Projects
+      url: /portfolio/portfolio.html
+      style: outline
+    - label: Back to Contact
+      url: /contact.html
+      style: outline

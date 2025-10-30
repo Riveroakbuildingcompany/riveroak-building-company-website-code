@@ -1,0 +1,19 @@
+hero:
+  monogram: RB
+  status: "Site notice • Page not found"
+  heading: "We curated every path except this one."
+  lead: "The page you’re looking for may have been moved or retired, but we’ll help you find your way back to Riveroak."
+  code: "404"
+  subtitle: "Choose your next destination below."
+  background_image: /images/signnn.png
+  background_alt: "Wooden sign for Riveroak Building Company"
+  actions:
+    - label: Return Home
+      url: /index.html
+      style: primary
+    - label: Browse the Portfolio
+      url: /portfolio/portfolio.html
+      style: outline
+    - label: Contact Our Team
+      url: /contact.html
+      style: ghost

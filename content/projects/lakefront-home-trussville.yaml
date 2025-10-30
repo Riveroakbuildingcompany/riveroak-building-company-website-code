@@ -1,0 +1,281 @@
+title: "Lakefront Home – Trussville"
+slug: "lakefront-home-trussville"
+output_filename: "portfolio-lakefront-home-trussville.html"
+body_class: "lakefront-page"
+
+seo:
+  title: "Lakefront Home – Trussville | Riveroak Building Company Portfolio"
+  description: >
+    See how Riveroak Building Company designed and built a custom lakefront home in Trussville,
+    Alabama. Explore floor plans, lake views, outdoor living spaces, and our new-home construction
+    process.
+  canonical: "https://www.riveroakbuilding.com/portfolio/portfolio-lakefront-home-trussville.html"
+  og_image: "https://www.riveroakbuilding.com/images/riveroak-logo.svg"
+  structured_data:
+    - "@context": "https://schema.org"
+      "@type": "Residence"
+      name: "Lakefront Custom Home in Trussville, Alabama"
+      url: "https://www.riveroakbuilding.com/portfolio/portfolio-lakefront-home-trussville.html"
+      image: "https://www.riveroakbuilding.com/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-wood-image-1.jpeg"
+      description: >
+        Riveroak Building Company designed and built a lakefront residence with vaulted ceilings,
+        panoramic views, and indoor-outdoor living in Trussville, Alabama.
+      address:
+        "@type": "PostalAddress"
+        addressLocality: "Trussville"
+        addressRegion: "AL"
+        addressCountry: "US"
+      sameAs:
+        - "https://www.instagram.com/riveroak_building_co/"
+        - "https://facebook.com/Riveroak-Building-Company"
+      architect:
+        "@type": "Organization"
+        name: "Riveroak Building Company"
+      material:
+        - "Engineered foundation walls"
+        - "Wood framing"
+        - "Brick siding"
+        - "Board-and-batten siding"
+        - "Natural wood accents"
+
+    - "@context": "https://schema.org"
+      "@type": "FAQPage"
+      mainEntity:
+        - "@type": "Question"
+          name: "How do you protect a lakefront home from moisture?"
+          acceptedAnswer:
+            "@type": "Answer"
+            text: >
+              Riveroak Building Company specifies engineered foundations, drainage, and
+              waterproofing systems suited to the slope and water table so the structure stays
+              dry year-round.
+        - "@type": "Question"
+          name: "Can Riveroak help with boat docks and shoreline permitting?"
+          acceptedAnswer:
+            "@type": "Answer"
+            text: >
+              Yes. The team coordinates with local authorities and homeowner associations to
+              ensure docks, seawalls, and outdoor structures meet regulations while enhancing
+              access to the water.
+        - "@type": "Question"
+          name: "What features make this Trussville lake house energy efficient?"
+          acceptedAnswer:
+            "@type": "Answer"
+            text: >
+              High-performance glazing, right-sized mechanical systems, and strategic shading
+              reduce heat gain and keep utility costs predictable for the homeowners.
+
+hero:
+  eyebrow: "Riveroak Portfolio"
+  heading: "Lake Front Home – Black Farmhouse"
+  lede: >
+    A ground-up lakefront residence shaped to the shoreline—capturing morning light, framed views,
+    and easy indoor-outdoor living for a family that loves the water.
+  image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-wood-image-1.jpeg"
+  alt: "Roof trusses and timber framing on a lakefront custom home in Trussville, Alabama"
+  stats:
+    - label: "Location"
+      value: "Trussville, Alabama"
+  tags:
+    - tag: "Lakefront Custom Home"
+    - tag: "Indoor–Outdoor Living"
+    - tag: "Energy-Efficient Envelope"
+
+overview:
+  eyebrow: "Project Overview"
+  heading: "A lakefront home shaped by light, structure, and connection."
+  paragraphs:
+    - text: >
+        This <strong>custom lakefront home in Trussville, Alabama</strong> pairs vaulted gathering spaces with
+        expansive glazing to keep the water always in view. The structure steps with the hillside, creating a
+        bright walk-out level below and a main floor that lives to the deck.
+    - text: >
+        Natural materials—warm woods, stone, and durable exterior finishes—ground the home in its setting.
+        Large openings slide away to blend kitchen, great room, and terraces for effortless hosting.
+  details:
+    - title: "Home Highlights"
+      items:
+        - text: "Vaulted great room aligned to long lake views"
+        - text: "Entertainer’s kitchen with scullery and deck connection"
+        - text: "Owner’s suite with private terrace and spa-inspired bath"
+        - text: "Window-lined stair hall bringing daylight to the core"
+        - text: "Walk-out lower level with outdoor kitchen, fire feature, and dock access"
+    - title: "Signature Details"
+      items:
+        - text: "Engineered roof trusses shaping open, vaulted interiors"
+        - text: "Moisture management waterproofed foundation, perimeter drainage"
+        - text: "High-performance glazing with integrated shading for comfort"
+        - text: "Durable, lakeside-ready exterior materials and trim"
+        - text: "Energy-efficient systems tuned for humidity and seasonal swings"
+
+insights:
+  eyebrow: "Trussville Custom Home Builder"
+  heading: "Designing lakefront homes that embrace the shoreline."
+  paragraphs:
+    - text: >
+        Riveroak Building Company is a <strong>Trussville custom home builder</strong> focused on
+        waterfront residences that balance engineering, craftsmanship, and lifestyle. From
+        evaluating steep lots to coordinating boat docks and outdoor kitchens, our team plans every
+        detail so your home performs beautifully in Alabama’s lakeside climate.
+    - text: >
+        For this Black Farmhouse, we partnered with the homeowners early to optimize the floor plan
+        for the water views and to integrate <a href="/service-areas.html">service-area permitting
+        requirements</a>. We also helped the family prepare for future smart-home upgrades and
+        energy monitoring, ensuring the residence will adapt alongside them.
+  cards:
+    - title: "Site-sensitive planning"
+      text: >
+        We analyzed the hillside terrain, soil conditions, and prevailing winds before breaking
+        ground, positioning the home to take advantage of sunrise views while protecting outdoor
+        rooms from summer heat.
+    - title: "Waterfront lifestyle amenities"
+      text: >
+        Entertaining zones extend from the main kitchen to multiple decks, a screened porch, and a
+        lower-level lounge steps from the dock—ideal for family gatherings and weekend guests.
+    - title: "Construction expertise"
+      text: >
+        Our craftsmen engineered the roof trusses for the dramatic vaulted ceilings and installed
+        moisture-management systems that keep the structure protected through every season on the
+        lake.
+  outro: >
+    Ready to build a lake house near Birmingham? <a href="/contact.html">Schedule a consultation</a>
+    with Riveroak and we’ll map out the path from concept to move-in day.
+
+gallery:
+  eyebrow: "Project Photos"
+  heading: "Building the Lakefront Home in Trussville"
+  items:
+    - image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-concrete-image-1.JPG"
+      alt: "Concrete foundation walls poured into the sloped lakeside terrain"
+      aria_label: "View larger Concrete foundation walls poured into the sloped lakeside terrain"
+      caption: >
+        The home’s foundation starts to take shape here, following the natural slope of the land and
+        anchoring the build into the hillside.
+      caption_hidden: true
+    - image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-Building-Home-Under-Construction.JPG"
+      alt: "Framed lakefront home wrapped and ready for roofing installation"
+      aria_label: "View larger Framed lakefront home wrapped and ready for roofing installation"
+      caption: >
+        As the structure was wrapped and prepped for roofing, the full shape of the house came together — 
+        a perfect blend of craftsmanship and setting.
+      caption_hidden: true
+    - image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-concrete-image-2.JPG"
+      alt: "Waterproofed foundation and drainage system installed along the lake-facing side"
+      aria_label: "View larger Waterproofed foundation and drainage system installed along the lake-facing side"
+      caption: >
+        Once the walls were poured, waterproofing and drainage were added to keep the structure dry and
+        strong for years to come.
+      caption_hidden: true
+    - image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-wood-panels.JPG"
+      alt: "First floor framing and structural walls taking shape"
+      aria_label: "View larger First floor framing and structural walls taking shape"
+      caption: >
+        Framing began soon after — the point where you can really start to see rooms take form and the
+        home’s layout come to life.
+      caption_hidden: true
+    - image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-wood-image-1.jpeg"
+      alt: "Roof trusses defining the vaulted form of the lakefront residence"
+      aria_label: "View larger Roof trusses defining the vaulted form of the lakefront residence"
+      caption: >
+        With the roof trusses in place, the home’s height and volume really start to show — giving a
+        glimpse of the open, vaulted spaces inside.
+      caption_hidden: true
+
+materials:
+  eyebrow: "Material Story"
+  heading: "A palette grounded in the lakeside landscape."
+  body: >
+    Each finish was selected to echo the wooded shoreline — honest materials that balance strength,
+    texture, and timeless simplicity.
+  cards:
+    - title: "Engineered foundation walls"
+      description: "Concrete retaining and basement walls stabilize the hillside site, anchoring the home securely to the terrain."
+    - title: "Wood framing and sheathing"
+      description: "Precision-built timber framing defines the structure and supports wide rooflines for shaded, livable porches."
+    - title: "Brick and board-and-batten siding"
+      description: "Hand-laid brick and dark fiber-cement siding create contrast and depth while blending with the wooded backdrop."
+    - title: "Natural wood accents"
+      description: "Stained porch posts, beams, and trim add warmth to the exterior and highlight Riveroak’s craftsmanship."
+
+related:
+  eyebrow: "More Riveroak projects"
+  heading: "Discover more residences"
+  projects:
+    - title: "Modern Retreat – Warrior"
+      summary: "A lakeside residence centered on glass, stone, and natural light."
+      url: "portfolio-modern-retreat-warrior.html"
+      image: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/Modern-Retreat-Warrior-Alabama-under-construction-2.PNG"
+      tag: "Modern"
+      meta:
+        - item: "Warrior, Alabama"
+        - item: "Custom Residence"
+    - title: "Trussville Cottage"
+      summary: "A cozy home balancing craftsmanship and simplicity."
+      url: "portfolio-trussville-cottage.html"
+      image: "/images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-1.JPG"
+      tag: "Cottage"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Scaled Residence"
+    - title: "Wooded Retreat – Trussville"
+      summary: "Privacy and connection to nature woven into every room."
+      url: "portfolio-wooded-retreat-trussville.html"
+      image: "/images/Portfolio/Wooded-Retreat-Trussville-Alabama/Wooded-Retreat-Trussville-Alabama-Finished-House-Image-1.PNG"
+      tag: "Retreat"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Forest Homesite"
+
+faq:
+  eyebrow: "Lakefront Home FAQ"
+  heading: "Questions about building on an Alabama lakefront lot"
+  items:
+    - question: "How do you protect a lakefront home from moisture?"
+      answer: >
+        We specify engineered foundations, drainage, and waterproofing systems suited to the slope
+        and water table. Continuous moisture management keeps basements, crawl spaces, and framing
+        dry year-round.
+    - question: "Can Riveroak help with boat docks and shoreline permitting?"
+      answer: >
+        Yes. Our team coordinates with local authorities and the homeowner association to ensure
+        docks, seawalls, and outdoor structures meet regulations while enhancing access to the
+        water.
+    - question: "What features make this Trussville lake house energy efficient?"
+      answer: >
+        High-performance glazing, properly sized mechanical systems, and shading strategies reduce
+        heat gain. These upgrades keep utility costs predictable and maximize comfort for the
+        homeowners.
+
+cta:
+  eyebrow: "Plan your project"
+  heading: "Bring your site or floor plan—we’ll bring the expertise."
+  lede: "From the first conversation to the finishing touches, Riveroak Building Co. helps you plan with confidence and build with enduring craftsmanship."
+  links:
+    - label: "Our build process"
+      url: "/riveroak-building-company-process.html"
+      class: "text-link"
+    - label: "Where we work"
+      url: "/service-areas.html"
+      class: "text-link"
+    - label: "Meet Riveroak"
+      url: "/about.html"
+      class: "text-link"
+  details:
+    - label: "Phone"
+      items:
+        - label: "205.617.0176"
+          url: "tel:12056170176"
+    - label: "Email"
+      items:
+        - label: "zac@riveroakbuilding.com"
+          url: "mailto:zac@riveroakbuilding.com"
+    - label: "Explore next"
+      items:
+        - label: "Plan a consultation"
+          url: "/contact.html"
+          class: "text-link"
+        - separator: "text"
+          separator_text: "&bull;"
+        - label: "View recent work"
+          url: "/portfolio/portfolio.html"
+          class: "text-link"

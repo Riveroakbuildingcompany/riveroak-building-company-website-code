@@ -1,0 +1,126 @@
+[build]
+
+  functions = "netlify/functions"
+
+##################################
+# 🔁 PAGE REDIRECTS
+##################################
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/portfolio/portfolio.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio/modern-retreat-warrior"
+  to = "/portfolio/portfolio-modern-retreat-warrior.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio/lakefront-home-trussville"
+  to = "/portfolio/portfolio-lakefront-home-trussville.html"
+  status = 200
+
+[[redirects]]
+  from = "/portfolio/ridgeview-residence-trussville"
+  to = "/portfolio/portfolio-ridgeview-residence-trussville.html"
+  status = 200
+
+[[redirects]]
+  from = "/process"
+  to = "/riveroak-building-company-process.html"
+  status = 200
+
+[[redirects]]
+  from = "/service-areas"
+  to = "/service-areas.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/service-areas/homewood/"
+  to = "/service-areas/homewood/homewood-custom-home-builders.html"
+  status = 301
+
+[[redirects]]
+  from = "/service-areas/homewood/index.html"
+  to = "/service-areas/homewood/homewood-custom-home-builders.html"
+  status = 301
+
+[[redirects]]
+  from = "/service-areas/homewood-custom-home-builders.html"
+  to = "/service-areas/homewood/homewood-custom-home-builders.html"
+  status = 301
+
+
+##################################
+# 🧭 ADMIN / CMS SUPPORT
+##################################
+
+# Fix for visiting /admin (redirect to /admin/)
+[[redirects]]
+  from = "/admin"
+  to   = "/admin/"
+  status = 301
+
+# Optional: canonicalize .html URLs to clean versions (SEO friendly)
+[[redirects]]
+  from = "/about.html"
+  to   = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/contact.html"
+  to   = "/contact"
+  status = 301
+
+[[redirects]]
+  from = "/service-areas.html"
+  to   = "/service-areas"
+  status = 301
+
+[[redirects]]
+  from = "/riveroak-building-company-process.html"
+  to   = "/process"
+  status = 301
+
+
+##################################
+# 🧩 HEADERS (CACHE + SECURITY)
+##################################
+
+# Prevent CMS and content data from being cached
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-store"
+
+
+
+[[headers]]
+  for = "/content/projects/*"
+  [headers.values]
+    Cache-Control = "no-store"
+
+# (Optional) Basic security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"

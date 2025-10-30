@@ -1,0 +1,245 @@
+title: "Modern Retreat – Warrior"
+slug: "modern-retreat-warrior"
+body_class: "modern-retreat-page"
+
+seo:
+  title: "Modern Retreat – Warrior | Riveroak Building Company Portfolio"
+  description: >-
+    Explore Riveroak Building Company's Modern Retreat project in Warrior, Alabama—expert waterfront sitework,
+    custom home planning, and luxury residential construction insights.
+  meta_description: >-
+    Explore Riveroak Building Company's Modern Retreat project in Warrior, Alabama—expert waterfront sitework,
+    custom home planning, and luxury residential construction insights.
+  og_description: >-
+    A contemporary lakeside residence blending glass, stone, and natural light for serene modern living.
+    Warrior, Alabama · Completed 2024 · 5,200 sq ft.
+  keywords:
+    - "Modern retreat Warrior Alabama"
+    - "waterfront custom home builder"
+    - "Riveroak Building Company portfolio"
+    - "luxury home construction Birmingham"
+    - "lakeside sitework contractor"
+  canonical: "https://www.riveroakbuilding.com/portfolio/portfolio-modern-retreat-warrior.html"
+  og_url: "https://www.riveroakbuilding.com/portfolio/portfolio-modern-retreat-warrior.html"
+  og_image: "https://www.riveroakbuilding.com/images/riveroak-logo.svg"
+  twitter_image: "https://www.riveroakbuilding.com/images/riveroak-logo.svg"
+  structured_data:
+    - "@context": "https://schema.org"
+      "@type": "Project"
+      name: "Modern Retreat – Warrior"
+      description: >-
+        Riveroak Building Company prepared a lakeside site in Warrior, Alabama with grading, drainage,
+        and foundation work for a contemporary retreat.
+      url: "https://www.riveroakbuilding.com/portfolio/portfolio-modern-retreat-warrior.html"
+      image: "https://www.riveroakbuilding.com/images/Portfolio/Modern-Retreat-Warrior-Alabama/Modern-Retreat-Warrior-Alabama-Empty-Lot-Image-1.JPG"
+      location:
+        "@type": "Place"
+        name: "Warrior, Alabama"
+        geo:
+          "@type": "GeoCoordinates"
+          latitude: "33.8148"
+          longitude: "-86.8094"
+      contractor:
+        "@type": "Organization"
+        name: "Riveroak Building Company"
+        url: "https://www.riveroakbuilding.com/"
+        telephone: "+1-205-617-0176"
+      areaServed:
+        - "Warrior"
+        - "Trussville"
+        - "Birmingham"
+        - "Jefferson County"
+      projectStatus: "https://schema.org/PreConstruction"
+
+hero:
+  eyebrow: "Riveroak Portfolio"
+  heading: "Modern Retreat – Warrior"
+  lede: >-
+    Contemporary calm on the water’s edge, beginning with thoughtful site preparation that frames future views
+    of Warrior’s serene lake.
+  image: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/Modern-Retreat-Warrior-Alabama-Empty-Lot-Image-1.JPG"
+  alt: "Modern Retreat home taking shape along the waterfront in Warrior, Alabama"
+  stats:
+    - label: "Location"
+      value: "Warrior, Alabama"
+  tags:
+    - tag: "Waterfront Sitework"
+    - tag: "Modern Retreat"
+    - tag: "Lakeside Living"
+
+overview:
+  eyebrow: "Project Overview"
+  heading: "Preparing the site for a modern lakeside retreat."
+  paragraphs:
+    - text: >-
+        Set along a quiet waterfront in Warrior, this property began as a wooded lot shaped by its natural slope
+        and surrounding views. Before construction, Riveroak carefully prepared the land — clearing, grading,
+        and orienting the foundation to follow the lake’s edge.
+    - text: >-
+        Every cut and contour was planned to preserve the site’s character. The layout frames open views of the
+        water while maintaining privacy through elevation and landscape. This groundwork established the setting
+        for a home that will feel both connected to nature and comfortably secluded.
+  details:
+    - title: "Early Site Work"
+      items:
+        - text: "Cleared and graded lot overlooking the lake"
+        - text: "Survey lines and elevation benchmarks established for foundation"
+        - text: "Soil and drainage preparation to protect the shoreline"
+        - text: "Preservation of natural tree canopy around the build zone"
+        - text: "Framing the footprint to align with water views and sunlight"
+    - title: "Project Highlights"
+      items:
+        - text: "Waterfront lot with gentle slope toward the lake"
+        - text: "Strategic grading for tiered outdoor living areas"
+        - text: "Secluded position offering privacy and uninterrupted vistas"
+        - text: "Balanced integration of natural terrain and build form"
+        - text: "Foundational work complete, preparing for vertical construction"
+
+gallery:
+  eyebrow: "Project Photos"
+  heading: "Sitework for the Modern Retreat – Warrior"
+  items:
+    - image: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/Modern-Retreat-Warrior-Alabama-Empty-Lot-Image-1.JPG"
+      alt: "Cleared waterfront site for the Modern Retreat home in Warrior"
+      aria_label: "View larger: Cleared waterfront site for the Modern Retreat home in Warrior"
+      caption: >-
+        The cleared site opens to the lake, revealing the contours that will guide the home’s foundation and views.
+      caption_hidden: true
+    - image: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/Modern-Retreat-Warrior-Alabama-Empty-Lot-Image-2.JPG"
+      alt: "Early grading and survey work at the Modern Retreat site in Warrior"
+      aria_label: "View larger: Early grading and survey work at the Modern Retreat site in Warrior"
+      caption: >-
+        Early grading and survey work define the slope and structure placement, ensuring balance between lake views
+        and privacy.
+      caption_hidden: true
+
+video_gallery:
+  eyebrow: "Construction Walkthroughs"
+  heading: "Modern Retreat site videos"
+  items:
+    - src: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_8370.mp4"
+      poster: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_9181.jpeg"
+      alt: "Site walkthrough video for the Modern Retreat waterfront build in Warrior"
+      aria_label: "Play video: Site walkthrough of the Modern Retreat waterfront build in Warrior"
+      caption: "Site walkthrough video capturing the lakeside grading for the Modern Retreat build in Warrior."
+      caption_sr_only: true
+    - src: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_8371.mp4"
+      poster: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_9182.jpeg"
+      alt: "Grading progress video for the Modern Retreat home in Warrior"
+      aria_label: "Play video: Grading progress for the Modern Retreat home in Warrior"
+      caption: "Grading progress video showing equipment shaping the Modern Retreat homesite in Warrior."
+      caption_sr_only: true
+    - src: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_8373.mp4"
+      poster: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_9183.jpeg"
+      alt: "Lakeside construction video for the Modern Retreat home in Warrior"
+      aria_label: "Play video: Lakeside construction progress for the Modern Retreat home in Warrior"
+      caption: "Lakeside construction video following the shoreline edge at the Modern Retreat site."
+      caption_sr_only: true
+    - src: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_8374.mp4"
+      poster: "/images/Portfolio/Modern-Retreat-Warrior-Alabama/IMG_9184.jpeg"
+      alt: "Construction progress video for the Modern Retreat exterior in Warrior"
+      aria_label: "Play video: Exterior progress for the Modern Retreat build in Warrior"
+      caption: "Exterior progress video tracing the foundation work for the Modern Retreat residence."
+      caption_sr_only: true
+
+materials:
+  eyebrow: "Material Story"
+  heading: "Preparing for a glass-and-stone retreat."
+  body: "Site infrastructure and early selections establish a foundation for modern architecture on the lake."
+  cards:
+    - title: "Engineered grading"
+      description: "Tiered cuts and retaining strategies ensure stable outdoor terraces above the shoreline."
+    - title: "Water management"
+      description: "Drainage paths and waterproofing plan for seasonal rains while protecting the lake environment."
+    - title: "Modern finishes"
+      description: "Future selections pair expansive glazing with stone and wood to keep the retreat rooted in nature."
+
+seo_overview:
+  eyebrow: "Waterfront Custom Home Expertise"
+  heading: "Custom home builders in Warrior focused on lakeside living."
+  paragraphs:
+    - text: >-
+        Riveroak Building Company brings luxury home construction experience to Warrior, Trussville, and the
+        greater Birmingham, Alabama area. This modern retreat showcases the precision sitework, grading, and
+        permitting support we provide before vertical construction begins. Homeowners rely on our team for
+        transparent budgets, white-glove project management, and a design-build process tailored to waterfront
+        properties.
+    - text: >-
+        Planning a new build near Warrior Lake or Smith Lake? Explore our
+        <a href="/service-areas.html">Alabama service areas</a>, review the
+        <a href="/riveroak-building-company-process.html">Riveroak design and build process</a>, and connect
+        with us to schedule a consultation. We partner with architects and homeowners to craft custom residences
+        that maximize views, durability, and energy efficiency.
+  sidebar:
+    heading: "Why homeowners choose Riveroak"
+    items:
+      - text: "Waterfront site development and retaining solutions"
+      - text: "Collaboration with leading Birmingham architects"
+      - text: "Energy-conscious building systems for luxury homes"
+      - text: "Dedicated project manager from concept through completion"
+      - text: "Trusted local contractors serving Jefferson and Blount Counties"
+
+related:
+  eyebrow: "More Riveroak projects"
+  heading: "Explore additional custom homes"
+  projects:
+    - title: "Lakefront Home – Trussville"
+      summary: "Expansive waterfront design with open interiors and panoramic views."
+      url: "portfolio-lakefront-home-trussville.html"
+      image: "/images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-under-construction-wood-image-1.jpeg"
+      tag: "Lakeside"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Waterfront Residence"
+    - title: "Wooded Retreat – Trussville"
+      summary: "Nestled among mature trees for privacy and connection to nature."
+      url: "portfolio-wooded-retreat-trussville.html"
+      image: "/images/Portfolio/Wooded-Retreat-Trussville-Alabama/Wooded-Retreat-Trussville-Alabama-Finished-House-Image-1.PNG"
+      tag: "Retreat"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Custom Residence"
+    - title: "Modern Farmhouse – Trussville"
+      summary: "Southern charm reimagined with a fresh, modern palette."
+      url: "portfolio-modern-farmhouse-trussville.html"
+      image: "/images/Portfolio/Modern-Farmhouse-Trussville-Alabama/Farmhouse-Trussville-Alabama-Finished-Project-Image-1.jpeg"
+      tag: "Farmhouse"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Family Home"
+
+cta:
+  eyebrow: "Plan your project"
+  heading: "Bring your site or floor plan—we’ll bring the expertise."
+  lede: >-
+    From the first conversation to the finishing touches, Riveroak Building Co. helps you plan with confidence
+    and build with enduring craftsmanship.
+  links:
+    - label: "Our build process"
+      url: "/riveroak-building-company-process.html"
+      class: "text-link"
+    - label: "Where we work"
+      url: "/service-areas.html"
+      class: "text-link"
+    - label: "Meet Riveroak"
+      url: "/about.html"
+      class: "text-link"
+  details:
+    - label: "Phone"
+      items:
+        - label: "205.617.0176"
+          url: "tel:12056170176"
+    - label: "Email"
+      items:
+        - label: "zac@riveroakbuilding.com"
+          url: "mailto:zac@riveroakbuilding.com"
+    - label: "Explore next"
+      items:
+        - label: "Plan a consultation"
+          url: "/contact.html"
+          class: "text-link"
+        - separator: "text"
+          separator_text: "&bull;"
+        - label: "View recent work"
+          url: "/portfolio/portfolio.html"
+          class: "text-link"

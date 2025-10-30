@@ -1,0 +1,44 @@
+hero:
+  eyebrow: Riveroak Building Company
+  title: Accessibility Statement
+  meta: |-
+    Effective Date: October 7, 2025
+  intro:
+    - paragraph: |-
+        Riveroak Building Company is committed to providing a website that is accessible to the widest possible audience, regardless of technology or ability. We continually work to improve the user experience for everyone who visits **riveroakbuilding.com** and apply the relevant accessibility standards whenever feasible for our Birmingham, Alabama clients.
+sections:
+  - heading: 1. Accessibility Standards
+    body: |-
+      We aim to follow the **Web Content Accessibility Guidelines (WCAG) 2.2** Level AA standards whenever possible. These guidelines explain how to make web content more accessible for people with disabilities and user friendly for everyone.
+  - heading: 2. Measures We’ve Taken
+    body: |-
+      To support accessibility, our team has implemented the following features and best practices:
+
+      - **Semantic HTML structure** to help assistive technologies understand page content.
+      - **Keyboard-friendly navigation** and interactive elements with clear focus states.
+      - **Text alternatives** for non-text content such as images and icons.
+      - **Responsive layouts** that adapt to different devices, orientations, and zoom levels.
+      - **Color contrast and typography choices** designed to improve readability.
+  - heading: 3. Ongoing Efforts
+    body: |-
+      Accessibility is an ongoing effort. We regularly review new features, content, and third-party integrations to identify opportunities for improvement. As industry standards evolve, we will continue to adjust our design and development practices to maintain and enhance accessibility.
+  - heading: 4. Supported Browsers & Assistive Technologies
+    body: |-
+      Our website is designed to be compatible with the most recent versions of major browsers, including Chrome, Safari, Edge, and Firefox. We also strive to support commonly used assistive technologies such as screen readers, screen magnifiers, and voice recognition software.
+  - heading: 5. Known Limitations
+    body: |-
+      While we make every effort to ensure accessibility, some legacy content or third-party applications may not fully meet our standards. If you encounter any accessibility barriers, please let us know so we can address them promptly.
+  - heading: 6. Accessibility Support for Birmingham Homeowners
+    body: |-
+      Riveroak Building Company serves discerning homeowners throughout Birmingham, Mountain Brook, and Vestavia Hills. If you need assistance navigating our accessibility features or require project details in an alternative format, we are ready to help. Our team can coordinate large-print materials, phone consultations, and on-site meetings to ensure every stage of your luxury home build remains inclusive.
+  - heading: 7. Feedback & Contact
+    body: |-
+      We welcome your feedback on the accessibility of the Riveroak Building Company website. If you experience difficulty using our site, have suggestions for improvement, or need information in an alternative format, please contact us:
+
+      **zac@riveroakbuilding.com**
+      **205-617-0176**
+      **Riveroak Building Company**
+      Birmingham, Alabama
+  - heading: 8. Commitment to Improvement
+    body: |-
+      Your input helps us create a better experience for everyone. We review all feedback and work with our team and partners to prioritize accessibility enhancements that support inclusivity across our digital presence.

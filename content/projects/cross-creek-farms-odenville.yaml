@@ -1,0 +1,169 @@
+title: "Cross Creek Farms"
+slug: "cross-creek-farms-odenville"
+output_filename: "portfolio-cross-creek-farms-odenville.html"
+body_class: "cross-creek-farms-page"
+
+seo:
+  title: "Cross Creek Farms – Odenville | Riveroak Building Company Portfolio"
+  description: >-
+    Explore Cross Creek Farms in Odenville, Alabama — a 47-lot neighborhood with basement-ready
+    homesites starting around $360,000. Bring your own plan or collaborate with Riveroak Building Company to design your
+    custom home.
+  canonical: "https://www.riveroakbuilding.com/portfolio/portfolio-cross-creek-farms-odenville.html"
+  og_image: "https://www.riveroakbuilding.com/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-entry-sign.jpeg"
+  og_image_type: "image/jpeg"
+  og_image_width: "1600"
+  og_image_height: "1067"
+  structured_data:
+    - "@context": "https://schema.org"
+      "@type": "ResidentialArea"
+      name: "Cross Creek Farms Neighborhood"
+      url: "https://www.riveroakbuilding.com/portfolio/portfolio-cross-creek-farms-odenville.html"
+      description: >-
+        Cross Creek Farms is a 47-lot neighborhood in Odenville, Alabama featuring basement-ready homesites starting around
+        $360,000. Buyers can bring their own plan or collaborate with Riveroak Building Company for a custom design.
+      image:
+        - "https://www.riveroakbuilding.com/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-entry-sign.jpeg"
+        - "https://www.riveroakbuilding.com/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-home-layout.jpeg"
+      address:
+        "@type": "PostalAddress"
+        streetAddress: "816 Cross Creek Dr"
+        addressLocality: "Odenville"
+        addressRegion: "AL"
+        postalCode: "35120"
+        addressCountry: "US"
+      numberOfRooms: "47 homesites"
+      sameAs:
+        - "https://www.realtor.com/realestateandhomes-detail/816-Cross-Creek-Dr_Odenville_AL_35120_M94084-43911"
+        - "https://www.facebook.com/p/Cross-Creek-Farms-100078368493720/"
+      offers:
+        "@type": "Offer"
+        price: "360000"
+        priceCurrency: "USD"
+        availability: "https://schema.org/InStock"
+        description: "Homesites starting around $360,000 with basement-ready lots and custom design options."
+
+hero:
+  eyebrow: "Riveroak Portfolio"
+  heading: "Cross Creek Farms – Odenville"
+  lede: >-
+    A wooded neighborhood of 47 basement-friendly lots where families can bring their own plan or design a custom Riveroak home
+    from the ground up.
+  image: "/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-entry-sign.jpeg"
+  alt: "Brick entry sign welcoming visitors to Cross Creek Farms in Odenville, Alabama"
+  stats:
+    - label: "Location"
+      value: "Odenville, Alabama"
+    - label: "Homesites"
+      value: "47 basement-ready lots"
+    - label: "Starting from"
+      value: "~$360,000"
+  tags:
+    - tag: "Neighborhood Development"
+    - tag: "Custom Home Design"
+    - tag: "Basement Homes"
+
+overview:
+  eyebrow: "Community Overview"
+  heading: "A neighborhood for custom living in Odenville."
+  paragraphs:
+    - text: >-
+        <strong>Cross Creek Farms</strong> is a Riveroak-supported community where buyers can shape a new home to fit their
+        lifestyle. Just minutes from Odenville conveniences, the neighborhood features mature trees, rolling terrain, and modern
+        utilities — an ideal canvas for basement homes and multi-level living.
+    - text: >-
+        Homeowners can bring their own plan or collaborate with our team to design something unique. Each lot offers flexible
+        footprints, allowing families to maximize natural light, outdoor living, and future expansion.
+  details:
+    - title: "Community Snapshot"
+      items:
+        - text: "47 total homesites with underground utilities"
+        - text: "Basement-friendly grades across multiple cul-de-sacs"
+        - text: "Convenient access to Odenville schools, shopping, and I-59"
+        - text: "Protective covenants that maintain neighborhood value"
+        - text: "Scenic views framed by established hardwoods"
+    - title: "Build Opportunities"
+      items:
+        - text: "Bring your own architectural plans or design with Riveroak"
+        - text: "Customizable elevations, outdoor living, and interior finishes"
+        - text: "Space for multi-car garages, workshops, or in-law suites"
+        - text: "Energy-efficient construction tailored to the homesite"
+        - text: "On-site guidance from Riveroak throughout design and build"
+
+gallery:
+  eyebrow: "Community Photos"
+  heading: "First looks at Cross Creek Farms"
+  items:
+    - image: "/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-entry-sign.jpeg"
+      alt: "Cross Creek Farms entry monument with brick signage and landscaped plantings"
+      aria_label: "View larger: Entry monument at Cross Creek Farms neighborhood in Odenville"
+      caption: >-
+        The entry monument sets the tone for a private, well-crafted neighborhood community.
+      caption_hidden: true
+    - image: "/images/Portfolio/Cross-Creek-Farms-Odenville/cross-creek-farms-home-layout.jpeg"
+      alt: "Neighborhood plat map showcasing the 47 lots available in Cross Creek Farms"
+      aria_label: "View larger: Homesite layout map for Cross Creek Farms in Odenville"
+      caption: >-
+        The neighborhood plat reveals generous lot sizes and cul-de-sac privacy for each future home.
+      caption_hidden: true
+
+materials:
+  eyebrow: "Plan Your Build"
+  heading: "Choose how you partner with Riveroak."
+  body: >-
+    From reviewing your existing plans to crafting a brand-new design, Riveroak helps each Cross Creek Farms homeowner create a
+    tailored residence.
+  cards:
+    - title: "Collaborative Design"
+      description: "Work directly with our team to shape floor plans, elevations, and selections that fit your family."
+    - title: "Basement Expertise"
+      description: "Take advantage of sloped lots with daylight basements, storm shelters, or expanded recreation space."
+    - title: "Investment Confidence"
+      description: "Guidance on financing, covenants, and long-term maintenance to protect your custom build."
+
+cta:
+  eyebrow: "Ready to explore?"
+  heading: "Tour the neighborhood or request lot availability."
+  lede: "See current listings, follow community updates, and start a conversation with Riveroak about building your custom home in Cross Creek Farms."
+  links:
+    - label: "View current listings"
+      url: "https://www.realtor.com/realestateandhomes-detail/816-Cross-Creek-Dr_Odenville_AL_35120_M94084-43911"
+      class: "button"
+    - label: "Follow on Facebook"
+      url: "https://www.facebook.com/p/Cross-Creek-Farms-100078368493720/"
+      class: "button button--ghost"
+  details:
+    - label: "Next step"
+      items:
+        - label: "Contact Riveroak"
+          url: "/contact.html"
+          class: "button button--dark"
+
+related:
+  eyebrow: "More Riveroak projects"
+  heading: "Explore additional custom homes"
+  projects:
+    - title: "Modern Farmhouse – Trussville"
+      summary: "Light-filled gathering spaces, warm materials, and thoughtful exterior detailing."
+      url: "portfolio-modern-farmhouse-trussville.html"
+      image: "/images/Portfolio/Modern-Farmhouse-Trussville-Alabama/Modern-Farmhouse-Trussville-Alabama-home-construction-image-1.PNG"
+      tag: "Farmhouse"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Custom Residence"
+    - title: "Ridgeview Residence – Trussville"
+      summary: "Engineered for the slope with panoramic living areas and protected outdoor spaces."
+      url: "portfolio-ridgeview-residence-trussville.html"
+      image: "/images/Portfolio/Ridgeview-Trussville-Alabama/Ridgeview-Trussville-Alabama-under-construction-Home-Building-Project-Image-3.JPG"
+      tag: "Hillside"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Custom Residence"
+    - title: "Wooded Retreat – Trussville"
+      summary: "A secluded setting surrounded by hardwoods with space for family and guests."
+      url: "portfolio-wooded-retreat-trussville.html"
+      image: "/images/Portfolio/Wooded-Retreat-Trussville-Alabama/Wooded-Retreat-Trussville-Alabama-Finished-House-Image-1.PNG"
+      tag: "Retreat"
+      meta:
+        - item: "Trussville, Alabama"
+        - item: "Custom Residence"

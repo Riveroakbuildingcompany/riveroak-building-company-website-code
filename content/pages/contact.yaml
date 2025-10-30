@@ -1,0 +1,45 @@
+hero:
+  eyebrow: "Private Consultation"
+  heading: "Birmingham’s Luxury Custom Home Builder"
+  subtext: |
+    At Riveroak, we combine craftsmanship with genuine connection to shape bespoke homes where memories unfold and traditions begin. Reach out to our Birmingham, Alabama custom home builder to begin a conversation about your vision and take the first step toward a residence that’s truly your own.
+  body: |
+    Share your inspiration, timeline, and must-haves — we’ll prepare for a meaningful conversation tailored to your goals and guide you through design-build decisions with transparency.
+  note: |
+    Consultations are available by appointment — in Birmingham or directly at your future homesite.
+  actions:
+    - label: "Call 205-617-0176"
+      url: "tel:12056170176"
+      variant: primary
+    - label: "Email Us"
+      url: "mailto:zac@riveroakbuilding.com"
+      variant: outline
+details:
+  heading: "Direct Access to Birmingham’s Riveroak Team"
+  intro: |
+    From day one, you’ll work directly with me. I’ll walk you through each step and help shape a home that fits how your family lives and comes together.
+  essentials:
+    - label: "Phone"
+      value: "205-617-0176"
+      url: "tel:12056170176"
+    - label: "Email"
+      value: "zac@riveroakbuilding.com"
+      url: "mailto:zac@riveroakbuilding.com"
+    - label: "Consultations"
+      value: "By appointment in Birmingham or at your homesite."
+  highlights:
+    - title: "Architectural Partnership"
+      description: |
+        Whether you come with plans in hand or need help finding the right design team, I’ll work beside you to shape a home that reflects who you are and how you want to live. My role is to keep everyone aligned and your vision front and center.
+    - title: "A Thoughtful, Guided Process"
+      description: |
+        I’ll walk you through every step — from early ideas and budgets to selections and construction milestones. My goal is to keep things clear, calm, and easy to follow so the experience feels exciting, not overwhelming.
+    - title: "Craftsmanship That Lasts"
+      description: |
+        The people who work on your home matter. I choose trades and craftsmen who share my respect for quality and care — building spaces meant to welcome your family for years to come.
+  appointment_note: |
+    Whatever stage you’re in — just dreaming, collecting inspiration, or holding plans in hand — I’ll meet you there. Together we’ll map out the right path to make it real and make it yours.
+form:
+  heading: "Start Your Build Journey"
+  lead: |
+    Fill out a few quick details, and we’ll connect to plan your project, review budget expectations, and map out the path forward.

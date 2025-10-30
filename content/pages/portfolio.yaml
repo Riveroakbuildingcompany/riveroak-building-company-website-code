@@ -1,0 +1,105 @@
+hero:
+  eyebrow: HONEST. FAIR. RELIABLE.
+  heading: Riveroak Portfolio
+  lead: Homes shaped by craftsmanship, care, and connection.
+  body: >-
+    Discover custom residences and thoughtful renovations that reflect how families
+    gather, rest, and grow — each one built for lasting comfort and quiet beauty.
+projects:
+  highlight:
+    tag: English Cottage
+    title: English Cottage
+    description: >-
+      Tailored millwork, intimate gathering spaces, and cottage charm come together
+      in this custom home crafted for everyday warmth.
+    location: Trussville, Alabama
+    image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-9.JPG
+    url: /portfolio/portfolio-trussville-cottage.html
+  items:
+    - tag: Lake Front
+      title: Lakefront Home
+      description: >-
+        A light-filled retreat tucked along the shoreline — designed for quiet
+        mornings, open views, and effortless gatherings.
+      location: Trussville, Alabama
+      image: /images/Portfolio/Lake-Front-Trussville-Alabama/Lake-Front-Trussville-Alabama-Building-Home-Under-Construction.JPG
+      url: /portfolio/portfolio-lakefront-home-trussville.html
+    - tag: Ridgeview
+      title: Ridgeview Residence
+      description: >-
+        Nestled into the hillside, this custom home rises with the land—balancing
+        elevated views with everyday comfort.
+      location: Trussville, Alabama
+      image: /images/RB-Photos/home-with-mailbox-out-front.JPG
+      url: /portfolio/portfolio-ridgeview-residence-trussville.html
+    - tag: Modern Farmhouse
+      title: Modern Farmhouse
+      description: >-
+        Bright, open, and welcoming — a fresh take on farmhouse living crafted for
+        real family life.
+      location: Trussville, Alabama
+      image: /images/RB-Photos/Modern-Farmhouse-preview.jpeg
+      url: /portfolio/portfolio-modern-farmhouse-trussville.html
+    - tag: Modern Retreat
+      title: Modern Retreat
+      description: >-
+        Perched on the water's edge, this refined retreat blends glass, stone, and
+        light to create a calm, contemporary escape.
+      location: Warrior, Alabama
+      image: /images/RB-Photos/window-install-preview.png
+      url: /portfolio/portfolio-modern-retreat-warrior.html
+    - tag: Craftsman
+      title: Craftsman – Trussville
+      description: >-
+        A modern Craftsman home designed for family life — simple lines, natural
+        textures, and everyday warmth.
+      location: Trussville, Alabama
+      image: /images/RB-Photos/home-being-built.jpg
+      url: /portfolio/portfolio-craftsman-trussville.html
+    - tag: Cross Creek Farms
+      title: Cross Creek Farms
+      description: >-
+        A 47-lot Odenville neighborhood with basement-ready homesites where Riveroak guides
+        custom designs that embrace rolling terrain, mature trees, and flexible floor plans.
+      location: Odenville, Alabama
+      image: /images/RB-Photos/cross-creek-farms-finished-photo.png
+      url: /portfolio/portfolio-cross-creek-farms-odenville.html
+    - tag: Retreat
+      title: Wooded Retreat
+      description: >-
+        Set among mature trees, this residence offers calm seclusion and a seamless
+        connection to nature.
+      location: Trussville, Alabama
+      image: /images/RB-Photos/bathroom-edit.png
+      url: /portfolio/portfolio-wooded-retreat-trussville.html
+    - tag: Craftsman
+      title: Craftsman – Hoover
+      description: Coming soon.
+      location: Hoover, Alabama
+      image: /images/Coming-Soon/RB-Logo-coming-soon-yellow-background-black-font.png
+      url: ''
+cta:
+  eyebrow: Plan your project
+  heading: Bring your site or floor plan—we'll bring the expertise.
+  body: >-
+    From the first conversation to the finishing touches, Riveroak Building Co.
+    helps you plan with confidence and build with enduring craftsmanship.
+  links:
+    - label: Our build process
+      url: /riveroak-building-company-process.html
+    - label: Where we work
+      url: /service-areas.html
+    - label: Meet Riveroak
+      url: /about.html
+  phone_label: Phone
+  phone: 205.617.0176
+  phone_href: tel:12056170176
+  email_label: Email
+  email: zac@riveroakbuilding.com
+  email_href: mailto:zac@riveroakbuilding.com
+  explore_label: Explore next
+  explore_links:
+    - label: Plan a consultation
+      url: /contact.html
+    - label: View recent work
+      url: /portfolio/portfolio.html

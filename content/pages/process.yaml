@@ -1,0 +1,96 @@
+hero:
+  badge: Our Process
+  heading: From Vision to Legacy
+  lead: >-
+    Every Riveroak home begins with intention. Our process is transparent,
+    collaborative, and deeply personal—crafted to keep you informed, supported,
+    and inspired from the first sketch to the final walk-through. What begins as
+    a vision becomes a lasting legacy built with care.
+  secondary_cta:
+    label: Download the Guide
+    url: PDF/Riveroak_Home_Building_Pamphlet_Staples_Download.pdf
+    download: true
+  details:
+    - label: Dedicated Project Team
+      text: Principals and partners oversee each step with precision, communication, and genuine care.
+    - label: Transparent Guidance
+      text: Consistent updates and open dialogue ensure you’re always confident in the process.
+    - label: Tailored Craftsmanship
+      text: Every finish and detail is thoughtfully chosen to reflect your life and the way you live at home.
+body: ""
+overview:
+  eyebrow: What to Expect
+  heading: A steady process built on trust and attention
+  body: >-
+    From our first conversation to move-in day, we lead with clarity and care.
+    You’ll always know what’s ahead, with a committed team treating your home as
+    if it were our own. Each milestone is handled with thoughtfulness and
+    integrity—so the experience feels calm, guided, and genuinely rewarding.
+  steps:
+    - title: Initial Consultation
+      description: >-
+        We start with a conversation—not a sales pitch. Our goal is to understand
+        your vision, timeline, and investment range so we can guide you through a
+        personalized building experience from day one.
+    - title: "Design & Lot Selection"
+      description: >-
+        Whether you already have plans or want to dream from scratch, we work
+        with you to design a layout that fits your lifestyle. We can build on
+        your land or help you find the perfect homesite. Every detail—from layout
+        to exterior look—is customized for you.
+    - title: Planning
+      description: >-
+        You’ll choose finishes that reflect your style, and we’ll help keep your
+        vision aligned with your budget. We handle permitting, scheduling, and
+        site prep so you’re never overwhelmed by red tape.
+    - title: Construction Begins
+      description: >-
+        We combine craftsmanship and communication to bring your plans to life.
+        From pouring the foundation to raising the roof, you’ll receive regular
+        updates and jobsite transparency you can trust.
+    - title: Mechanicals + Interior Finishes
+      description: >-
+        This is where the magic happens. After we install plumbing, electrical,
+        and HVAC, your home starts to come to life with flooring, tile, cabinets,
+        lighting, and all the custom touches you selected.
+    - title: Final Walkthrough + Move-In
+      description: >-
+        We walk through your home together, making sure everything meets your
+        expectations. A detailed punch list ensures no corners are cut, and once
+        complete—you’re ready to move into a home truly built for you.
+    - title: Warranty + Support
+      description: >-
+        We don’t disappear after closing. Our commitment to quality continues
+        with post-move-in support and warranty service that gives you lasting
+        peace of mind.
+download:
+  eyebrow: Process Guide
+  heading: Your Riveroak Journey, Simplified
+  body: >-
+    Download our step-by-step guide to see exactly how we bring your home to life
+    — from the first meeting to move-in day. It’s an easy-to-follow roadmap
+    designed to keep every detail clear and organized.
+  button:
+    label: Download the Guide
+    url: PDF/Riveroak_Home_Building_Pamphlet_Staples_Download.pdf
+    download: true
+  media:
+    url: PDF/Riveroak_Home_Building_Pamphlet_Staples_Download.pdf
+    download: true
+    aria_label: Download the Riveroak process guide PDF
+  image:
+    src: images/Preview-PDF.jpg
+    alt: Preview of the Riveroak process guide cover
+support:
+  eyebrow: Ready to begin?
+  heading: Let’s map out your next home together.
+  body: >-
+    Share your goals, timeline, and inspiration. We’ll provide the guidance and
+    craft to deliver a home that feels unmistakably yours.
+  primary_cta:
+    label: Plan your project
+    url: contact.html
+  secondary_cta:
+    label: View portfolio
+    url: portfolio/portfolio.html
+

@@ -1,0 +1,194 @@
+title: Trussville Cottage
+slug: trussville-cottage
+body_class: trussville-cottage-page
+seo:
+  title: Trussville Cottage | Riveroak Building Company Portfolio
+  description: >-
+   A cozy, thoughtfully scaled home that balances craftsmanship and simplicity. 
+   Trussville, Alabama · Completed 2021 · 2,600 sq ft.
+  og_image: https://riveroakbuilding.com/images/riveroak-logo.svg
+hero:
+  eyebrow: Riveroak Portfolio
+  heading: English Cottage
+  lede: >-
+    Compact in footprint yet generous in character, this cottage brings light, warmth, and efficient living
+    to a wooded Trussville lot.
+  image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-5.JPG
+  alt: Trussville Cottage exterior wrapped during construction
+  stats:
+    - label: Location
+      value: Trussville, Alabama
+  tags:
+    - tag: Cottage Architecture
+    - tag: Light-Filled Living
+    - tag: Efficient Footprint
+overview:
+  eyebrow: Project Overview
+  heading: Compact in size—generous in heart and light.
+  paragraphs:
+    - text: >-
+        Tucked into a wooded lot in Trussville, this cottage was designed for a young family that wanted
+        efficiency without compromise. Riveroak shaped a simple, smart plan beneath steep gables and dormers,
+        pairing durable construction with warm, livable spaces.
+    - text: >-
+        Vaulted ceilings and thoughtfully placed windows pull natural light deep into the home, while tailored
+        trim and durable finishes keep maintenance easy. Every square foot works hard—open where it counts,
+        quiet where it matters.
+  details:
+    - title: Home Highlights
+      items:
+        - text: Open living/kitchen/dining designed for everyday gathering
+        - text: Vaulted great room bringing light and volume to the core of the home
+        - text: Private owner’s suite with marble-look tiled shower and mosaic floor
+        - text: Two additional bedrooms with a flexible study or play nook
+        - text: Covered rear porch connecting indoor comfort to the trees beyond
+    - title: Signature Details
+      items:
+        - text: Steep gables, dormer windows, and a round accent window for cottage character
+        - text: CMU foundation, wood framing, and HomeGuard weather barrier for long-term durability
+        - text: Energy-efficient windows and architectural asphalt shingles
+        - text: Custom millwork and trim scaled to cozy cottage proportions
+        - text: Practical drop zone at the everyday entry to keep gear organized
+gallery:
+  eyebrow: Project Photos
+  heading: Scenes from the English Cottage
+  items:
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Empty-Lot-with-business-sign-out-front.JPG
+      alt: Cleared lot with Riveroak sign at the Trussville Cottage site
+      aria_label: "View larger: Cleared lot with Riveroak sign at the Trussville Cottage site"
+      caption: The site is cleared and marked, ready for foundation work.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-1.JPG
+      alt: Early framing begins on the Trussville Cottage
+      aria_label: "View larger: Early framing begins on the Trussville Cottage"
+      caption: Framing starts to outline the cottage footprint and steep rooflines.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-2.JPG
+      alt: Framing progress continues
+      aria_label: "View larger: Framing progress continues"
+      caption: Walls go up and openings are set for future windows and doors.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-3.JPG
+      alt: Main volume framing taking shape
+      aria_label: "View larger: Main volume framing taking shape"
+      caption: The main living volume comes into view with clear room layouts.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-5.JPG
+      alt: Roof framing underway on the cottage
+      aria_label: "View larger: Roof framing underway on the cottage"
+      caption: Roof structure rises, establishing the cottage proportions and dormers.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-4.JPG
+      alt: Exterior wrapped and weather-tight
+      aria_label: "View larger: Exterior wrapped and weather-tight"
+      caption: Wrapped and weather-tight, the exterior profile is clearly defined.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-9.JPG
+      alt: Rear porch framing extends outdoor living
+      aria_label: "View larger: Rear porch framing extends outdoor living"
+      caption: The rear porch framing extends living space into the backyard.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-8.JPG
+      alt: Vaulted interior framing and open trusses
+      aria_label: "View larger: Vaulted interior framing and open trusses"
+      caption: Vaulted framing brings height and daylight into the central living areas.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-6.JPG
+      alt: Exterior and interior progress details
+      aria_label: "View larger: Exterior and interior progress details"
+      caption: Progress continues as detailing and systems are prepared.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-7.JPG
+      alt: Interior trim and built-ins
+      aria_label: "View larger: Interior trim and built-ins"
+      caption: Trim and built-ins add handcrafted character and smart storage.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Alabama-house-under-construction-10.jpeg
+      alt: Additional framing perspective of the cottage
+      aria_label: "View larger: Additional framing perspective of the cottage"
+      caption: Another angle highlights the roof pitch and overall scale.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Bathroom-Project-Image-1.JPG
+      alt: Finished bathroom with tilework and fixtures
+      aria_label: "View larger: Finished bathroom with tilework and fixtures"
+      caption: Finished bath details show warm materials and clean lines.
+      caption_hidden: true
+    - image: /images/Portfolio/English-Cottage-Trussville/English-Cottage-Trussville-Bathroom-Project-Image-2.JPG
+      alt: Finished bathroom with marble tile and natural light
+      aria_label: "View larger: Finished bathroom with marble tile and natural light"
+      caption: Soft natural light and refined tilework complete the ensuite spaces.
+      caption_hidden: true
+materials:
+  eyebrow: Material Story
+  heading: Crafted for comfort and timeless charm.
+  body: Rooted in traditional cottage design, each material reflects the home's focus on warmth, longevity, and handcrafted detail.
+  cards:
+    - title: Concrete block foundation
+      description: Engineered to fit the wooded slope, the foundation anchors the structure and provides lasting stability.
+    - title: Wood framing and roofline
+      description: Exposed timber framing defines the vaulted interiors while durable asphalt shingles shelter the home’s steep gables.
+    - title: Weather barrier and energy windows
+      description: High-performance HomeGuard wrap and energy-efficient windows protect against the elements and brighten every room.
+    - title: Tile and trim finishes
+      description: Porcelain marble-look tile, mosaic shower flooring, and custom millwork add everyday luxury and cottage character throughout.
+related:
+  eyebrow: More Riveroak projects
+  heading: Discover more homes
+  projects:
+    - title: Modern Farmhouse
+      summary: Classic Southern charm reimagined with a modern palette.
+      url: portfolio-modern-farmhouse-trussville.html
+      image: /images/RB-Photos/Modern-Farmhouse-preview.jpeg
+      tag: Farmhouse
+      meta:
+        - item: Trussville, Alabama
+        - item: Custom Residence
+    - title: Wooded Retreat
+      summary: Privacy and nature intertwined in every space.
+      url: portfolio-wooded-retreat-trussville.html
+      image: /images/Portfolio/Wooded-Retreat-Trussville-Alabama/Wooded-Retreat-Trussville-Alabama-Finished-House-Image-1.PNG
+      tag: Retreat
+      meta:
+        - item: Trussville, Alabama
+        - item: Custom Build
+    - title: Craftsman
+      summary: Warm textures, exposed beams, and timeless detailing.
+      url: portfolio-craftsman-trussville.html
+      image: /images/Portfolio/Trussville-Craftsman/Trussville-Craftsman-Alabama-House-under-construction.jpg
+      tag: Craftsman
+      meta:
+        - item: Trussville, Alabama
+        - item: Custom Residence
+cta:
+  eyebrow: Plan your project
+  heading: Bring your site or floor plan—we’ll bring the expertise.
+  lede: From the first conversation to the finishing touches, Riveroak Building Co. helps you plan with confidence and build with enduring craftsmanship.
+  links:
+    - label: Our build process
+      url: /riveroak-building-company-process.html
+      class: text-link
+    - label: Where we work
+      url: /service-areas.html
+      class: text-link
+    - label: Meet Riveroak
+      url: /about.html
+      class: text-link
+  details:
+    - label: Phone
+      items:
+        - label: 205.617.0176
+          url: tel:12056170176
+    - label: Email
+      items:
+        - label: zac@riveroakbuilding.com
+          url: mailto:zac@riveroakbuilding.com
+    - label: Explore next
+      items:
+        - label: Plan a consultation
+          url: /contact.html
+          class: text-link
+        - separator: text
+          separator_text: "&bull;"
+        - label: View recent work
+          url: /portfolio/portfolio.html
+          class: text-link

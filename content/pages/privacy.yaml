@@ -1,0 +1,56 @@
+hero:
+  eyebrow: Riveroak Building Company
+  title: Privacy Policy
+  meta: |-
+    Effective Date: October 7, 2025
+  intro:
+    - paragraph: |-
+        At Riveroak Building Company, we value your trust and are committed to protecting your personal information. This Privacy Policy explains what data we collect, how we use it, and the choices you have when interacting with our website or contacting us.
+sections:
+  - heading: 1. Information We Collect
+    body: |-
+      We may collect **personal details** that you voluntarily provide, such as your name, email address, phone number, project location, and any information you include when submitting forms or emailing us. We may also gather **non-personal data**, such as your browser type, device information, IP address, and general website usage patterns to help improve your experience and website functionality.
+  - heading: 2. How We Use Your Information
+    body: |-
+      We use the information we collect to:
+
+      - **Respond to your inquiries** and provide requested services.
+      - **Improve our website, communications,** and overall user experience.
+      - Send **updates, offers, or relevant information** about Riveroak Building Company (only if you opt in).
+      - Comply with applicable **laws, regulations, and industry standards.**
+      - Protect the **integrity and security** of our systems and business operations.
+  - heading: 3. Sharing Your Information
+    body: |-
+      **We do not sell, rent, or trade your personal information.** We may share limited personal data with **trusted partners and service providers** who assist in operating our business, hosting our website, or communicating with clients—but only under strict confidentiality and data protection agreements. We may also disclose information when **required by law**, to enforce our Terms of Service, or to protect our rights, property, and safety.
+  - heading: 4. Cookies & Tracking Technologies
+    body: |-
+      Our website may use **cookies, analytics scripts, and similar technologies** to enhance performance, personalize content, and analyze visitor traffic. You can modify your browser settings to **refuse cookies** or alert you when they are being used, but some features may not function properly if cookies are disabled.
+  - heading: 5. Third-Party Services & Links
+    body: |-
+      Our website may include links to **third-party websites or embedded services** (such as Google Maps, analytics, or social media integrations). These third parties operate under their own privacy policies, and we are **not responsible for their practices.** We recommend reviewing their policies before sharing any personal information.
+  - heading: 6. Data Retention
+    body: |-
+      We retain your personal information **only for as long as necessary** to fulfill the purposes outlined in this policy or as required by law. When information is no longer needed, we **securely delete or anonymize** it to prevent unauthorized access.
+  - heading: 7. Data Security
+    body: |-
+      We implement **reasonable physical, technical, and administrative safeguards** to help protect your personal data. While we strive to maintain the highest level of security, please be aware that **no online transmission or storage system is completely secure.**
+  - heading: 8. Children’s Privacy
+    body: |-
+      Our services are **not intended for children under 13.** We do not knowingly collect or store personal data from anyone under that age. If we become aware that such information has been provided, we will **promptly delete it** from our systems.
+  - heading: 9. Your Rights & Choices
+    body: |-
+      You may request to **review, correct, or delete** your personal information at any time by contacting us. You can also **opt out of marketing communications** by clicking the unsubscribe link in any email we send or by contacting us directly.
+  - heading: 10. International Visitors
+    body: |-
+      Our website is operated from the **United States.** If you access our site from outside the U.S., please note that your information may be processed and stored in a country with **different data protection laws.** By using our site, you consent to the transfer of your information to the United States.
+  - heading: 11. Updates to This Policy
+    body: |-
+      We may revise this Privacy Policy from time to time to reflect changes in our practices or legal requirements. The **"Effective Date"** at the top of this page will indicate the most recent version. Continuing to use our website after updates means you **accept the revised terms.**
+  - heading: 12. Contact Us
+    body: |-
+      If you have any **questions, concerns, or requests** regarding this Privacy Policy or how we handle your information, please contact us at:
+
+      **zac@riveroakbuilding.com**  
+      **205-617-0176**  
+      **Riveroak Building Company**  
+      Birmingham, Alabama
