@@ -5,6 +5,7 @@ A comprehensive marketing site for Riveroak Building Company that showcases cust
 ## Live preview
 
 - Production deployment: <https://neon-malabi-0f2e54.netlify.app/>
+- Production deployment: <https://joyful-cocada-1f9ba7.netlify.app/>
 - The live site is generated directly from the files in this repository and deployed to Netlify using the configuration in [`netlify.toml`](netlify.toml).
 
 ## Table of contents
