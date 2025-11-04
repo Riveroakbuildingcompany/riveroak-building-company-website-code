@@ -3,7 +3,7 @@
 backend:
   name: git-gateway
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/4717d090-6938-4415-a03d-26a0c4be74ca
+  identity_url: https://auth.decapbridge.com/sites/8b6d86da-f278-4904-acac-b791adc871ef
   gateway_url: https://gateway.decapbridge.com
 
 # === Editorial workflow ===
