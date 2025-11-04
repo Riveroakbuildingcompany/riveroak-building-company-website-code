@@ -1,5 +1,4 @@
-# === Authentication & Backend ===
-# Use DecapBridge classic auth
+# === Authentication & Backend (Decap Bridge - Classic Auth) ===
 backend:
   name: git-gateway
   branch: main
