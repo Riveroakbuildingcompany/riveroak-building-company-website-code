@@ -12,21 +12,21 @@ seo:
     Thank you for contacting Riveroak Building Company. Our Birmingham custom home builders will follow up shortly.
   twitter_image: https://www.riveroakbuilding.com/images/riveroak-logo.svg
   jsonld:
-    @context: https://schema.org
-    @type: ContactPage
+    context: https://schema.org
+    type: ContactPage
     name: Thank You | Riveroak Building Company
     url: https://www.riveroakbuilding.com/thank-you.html
     description: >-
       Thank you for contacting Riveroak Building Company. Our Birmingham, Alabama custom home builders will follow up on your request.
     publisher:
-      @type: Organization
+      type: Organization
       name: Riveroak Building Company
       url: https://www.riveroakbuilding.com/
       logo:
-        @type: ImageObject
+        type: ImageObject
         url: https://www.riveroakbuilding.com/images/riveroak-logo.svg
       contactPoint:
-        @type: ContactPoint
+        type: ContactPoint
         contactType: Customer Service
         telephone: +1-205-617-0176
         email: zac@riveroakbuilding.com
