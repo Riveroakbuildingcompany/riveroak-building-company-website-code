@@ -49,6 +49,16 @@ function renderRichText(v){ if(!v) return ''; if(typeof marked !== 'undefined'){
 function resolveValue(item, key){ if(item==null) return ''; if(typeof item==='string') return item; if(typeof item==='object'){ if(key && item[key]!=null) return item[key]; const values=Object.values(item); if(values.length===1) return values[0]; } return ''; }
 function updateDataMeta(name, value){ if(value==null) return; const el=document.querySelector(`[data-thank-meta="${name}"]`); if(!el) return; const tag=el.tagName ? el.tagName.toLowerCase() : ''; const attr = tag === 'link' ? 'href' : 'content'; el.setAttribute(attr, value); }
 function updateJsonScript(attr, data){ const el=document.querySelector(`[data-${attr}-json]`); if(!el || !data) return; try { el.textContent = JSON.stringify(data, null, 2); } catch (error) { /* ignore invalid JSON */ } }
+function normalizeJsonLd(data){
+  if(data==null || typeof data!=='object') return data;
+  if(Array.isArray(data)) return data.map(normalizeJsonLd);
+  const result={};
+  Object.entries(data).forEach(([key, value])=>{
+    const normalizedKey=key==='context'?'@context':key==='type'?'@type':key;
+    result[normalizedKey]=normalizeJsonLd(value);
+  });
+  return result;
+}
 function buttonClassFromStyle(style){ switch((style||'').toLowerCase()){ case 'outline': return 'btn btn-outline'; case 'ghost': return 'btn btn-ghost'; default: return 'btn btn-primary'; } }
 
 // page loaders
@@ -390,7 +400,7 @@ async function loadThankYou(){ const d=await loadYAML('/content/pages/thank-you.
   updateDataMeta('twitter:title', seo.twitter_title || seo.title);
   updateDataMeta('twitter:description', seo.twitter_description || seo.description);
   updateDataMeta('twitter:image', seo.twitter_image || seo.og_image);
-  updateJsonScript('thank', seo.jsonld);
+  updateJsonScript('thank', normalizeJsonLd(seo.jsonld));
 
   const hero=d.hero||{};
   setText('[data-thank="hero_eyebrow"]', hero.eyebrow);
